@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+  <div class="columns is-fullheight">
+      <div class="column">
+          <section class="hero is-light is-bold">
+              <div class="hero-body">
+                <section class="hero">
+                  <div class="hero-body">
+                    <div class="container">
+                      <h1 class="title is-1 has-text-centered">
+                        {{ .Type | humanize }}
+                      </h1>
+                    </div>
+                  </div>
+                </section>
+              </div>
+          </section>
+      </div>
+  </div>
+<div class="container is-fluid column is-8 is-offset-2">
+  {{ if eq .Kind "taxonomyTerm" }}
+    {{ range $.Site.Taxonomies.tags.ByCount }}
+      <a class="text-body" href="/tags{{ .Name | relURL }}"> {{ .Name | markdownify }}</a> <sup> {{ .Count }}  </sup>
+    {{ end }}
+  {{ else }}
+  <table class="table is-striped is-hoverable">
+    {{- range .Data.Pages.GroupByDate "2006" }}
+  <tr>
+    <th class="has-text-centered" colspan="3">
+      {{ .Key }}
+      </th>
+    </tr>  <!--<div class="is-divider" data-content="{{ .Key }}"></div> -->
+    {{ range .Pages }}
+    <tr>
+      <td class="is-hidden-mobile has-text-right">{{ .Date.Format "Jan 2, 2006"}}</td>
+      <td>
+        <a href="{{.Permalink}}">{{.Title}}</a>
+        </td>
+      </tr>
+    {{ end }}
+    {{ end }}
+</table>
+  {{ end }}
+</div> <!-- container is-fluid column is-8 is-offset-2-->
+
+{{ end }}

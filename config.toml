@@ -1,0 +1,47 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Aashiyana of Pamela Santanu"
+theme = "santm-bulma_v2"
+[wordCount]
+other = "{{ .WordCount }} words"
+[params]
+  author = "anamika"
+  description = "Awesome Hugo Site"
+# For Hermit Theme
+    dateform        = "Jan 2, 2006"
+    dateformShort   = "Jan 2"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04 -0700"
+  [[params.social]]
+    medium = "Home`"
+    icon = "fas fa-home fa-2x"
+    link = "/"
+  [[params.social]]
+    medium = "Blog"
+    icon = "fas fa-newspaper fa-2x"
+    link = "/posts"
+  [[params.social]]
+    medium = "camera"
+    icon = "fas fa-camera fa-2x"
+    link = "https://www.flickr.com/photos/santm/collections"
+  [[params.social]]
+    medium = "Facebook"
+    icon = "fab fa-facebook-square fa-2x"
+    link = "https://www.facebook.com/santm"
+  [[params.social]]
+    medium = "instagram"
+    icon = "fab fa-instagram-square fa-2x"
+    link = "https://www.instagram.com/s.a.n.t.m/"
+
+[outputs]
+home = ["HTML", "RSS","JSON"]
+# satanu for now    page = ["HTML", "RSS", "JSON"]
+#section = ["JSON", "HTML", "JSON"]
+[taxonomies]
+    year = "year"
+    month = "month"
+    tags = "tags"
+[permalinks]
+    post = "/posts/:year/:month/:slug/"
+    year = "/posts/:slug/"
+    month = "/posts/:slug/"

@@ -1,0 +1,33 @@
+{{ define "header" }} {{ partial "menu" . }} {{ end }}
+
+{{ define "main" }}
+<div class="has-shadow" itemscope itemtype="http://schema.org/BlogPosting">
+<section class="hero is-danger is-bold">
+  <div class="hero-body">
+  <div class="container has-text-centered">
+    <br><h1 class="title is-2">{{ .Page.Title}}</h1>
+    </div>
+  </div>
+</section>
+<section class="section blog">
+       <div class="container">
+         <div class="columns is-mobile">
+           <div class="column">
+             <div class="content blog-post section has-text-justified" itemprop="articleBody">
+               <br />
+               <div class="container is-fluid column is-8 is-offset-2">
+         {{ .Content}}
+         </div>
+         </div>
+         </div>
+         </div>
+</section>
+</div>
+
+
+</main>
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}
