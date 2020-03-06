@@ -1,76 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>France on Aashiyana of Pamela Santanu</title>
-    <link>https://blog.santm.com/tags/france/</link>
-    <description>Recent content in France on Aashiyana of Pamela Santanu</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jul 2006 19:09:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://blog.santm.com/tags/france/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Yum……..</title>
-      <link>https://blog.santm.com/posts/2006-07-26-yum/</link>
-      <pubDate>Wed, 26 Jul 2006 19:09:00 +0530</pubDate>
-      
-      <guid>https://blog.santm.com/posts/2006-07-26-yum/</guid>
-      <description>NormallySantanu has a tendency of encroaching cuisine area particularly onweekend or on his official holidays depending on his mood. In a way,it’s good as I get 2 days off.
-We were just back from Switzerland and went for picnic atSt.-Germain-en-Laye with few colleagues of Santanu. And Santanu promisedhe is going to prepare all by himself -simple vegetable-rice and Datewalnut brownies.
-Lately I borrowed one book on vegetarian by Nicolas Graimes from onefriend which includes light meals, main courses, tarts, salads, dessertsetc.</description>
-    </item>
-    
-    <item>
-      <title>C’est fou !</title>
-      <link>https://blog.santm.com/posts/2006-07-02-cest-fou/</link>
-      <pubDate>Sun, 02 Jul 2006 17:43:00 +0530</pubDate>
-      
-      <guid>https://blog.santm.com/posts/2006-07-02-cest-fou/</guid>
-      <description>Football - the definition for the same may be quite simple but itcertainly does have lots of colors. It is a mutli-billion dollarbusiness from sporting to TV companies. For some it is as close to theirreligion. People can fight or hug with a complete stranger whileignoring his family or close one when there is a match.
-As we live in Europe it is very hard to escape it.</description>
-    </item>
-    
-    <item>
-      <title>Provence - South of France</title>
-      <link>https://blog.santm.com/posts/2004-05-10-provence-south-of-france/</link>
-      <pubDate>Mon, 10 May 2004 00:32:00 +0530</pubDate>
-      
-      <guid>https://blog.santm.com/posts/2004-05-10-provence-south-of-france/</guid>
-      <description>We have been thinking to visit South of France for a long time. Writingthe dairy for this trip is very unique as it had so many vivid eventsone after another. We took a packaged deal with one of the travel agency(Hotel and Bus with Sleeping-Berth)
-After the event-full after-noon at Cite Perfecture we started at 9 P.Mfrom Paris. It was not a bad start till the first stop.</description>
-    </item>
-    
-    <item>
-      <title>St. Michel</title>
-      <link>https://blog.santm.com/posts/2004-02-14-st-michel/</link>
-      <pubDate>Sat, 14 Feb 2004 22:05:00 +0530</pubDate>
-      
-      <guid>https://blog.santm.com/posts/2004-02-14-st-michel/</guid>
-      <description>Perched on a rocky islet in the midst of vast sandbanks exposed topowerful tides between Normandy and Brittany (on the north coast ofFrance) stand the &amp;lsquo;Wonder of the West&amp;rsquo;, a Gothic-style abbey dedicatedto the Archangel St Michael
-It was built in 8thcentury, the buildings of Mont St. Michelwere constructed of granite which were carried from near-by island butsome limestone were also used in the cloister.</description>
-    </item>
-    
-    <item>
-      <title>Cantal</title>
-      <link>https://blog.santm.com/posts/2003-07-18-cantal/</link>
-      <pubDate>Fri, 18 Jul 2003 10:27:00 +0530</pubDate>
-      
-      <guid>https://blog.santm.com/posts/2003-07-18-cantal/</guid>
-      <description>The first trip to France countryside was to Cantal -central region for 3days with Murali &amp;amp; Joydeep on July 14th. Cantal, in France&amp;rsquo;s MassifCentral, is the largest volcanic edifice in Europe. We went by car,Murali did a wonderful job by seating at the back of steering wheel &amp;amp;Joydeep at navigator’s seat while we two were enjoying sleeping (fromtime to time) at back seat. We enjoyed a natural landscape which wasreally worth seeing through own eyes- rolling hills, lush greenfarmlands, small mountains, forests &amp;amp; valleys.</description>
-    </item>
-    
-    <item>
-      <title>Visiting Paris a Desi Guide</title>
-      <link>https://blog.santm.com/posts/2003-06-06-visiting-paris-a-desi-guide/</link>
-      <pubDate>Fri, 06 Jun 2003 21:01:00 +0530</pubDate>
-      
-      <guid>https://blog.santm.com/posts/2003-06-06-visiting-paris-a-desi-guide/</guid>
-      <description>Me and Pamela are living in Paris for a while now and we are stillenjoying going around and exploring Paris. Lots of my friends asked meabout our personal opinions on the same before visiting Paris and Francefor a week or so. So here it is will all the best information that I canwrite down with out making it too boring for you.
-
-**A brief about Paris:**Paris is dividedin 2 main parts by the River Seine; the left bank and the right.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>France on Aashiyana of Pamela Santanu</title><link>https://santm.com/tags/france/</link><description>Recent content in France on Aashiyana of Pamela Santanu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 26 Jul 2006 19:09:00 +0530</lastBuildDate><atom:link href="https://santm.com/tags/france/index.xml" rel="self" type="application/rss+xml"/><item><title>Yum……..</title><link>https://santm.com/posts/2006-07-26-yum/</link><pubDate>Wed, 26 Jul 2006 19:09:00 +0530</pubDate><guid>https://santm.com/posts/2006-07-26-yum/</guid><description>Normally
+Santanu has a tendency of encroaching cuisine area particularly on
+weekend or on his official holidays depending on his mood. In a way,
+it’s good as I get 2 days off.
+We were just back from Switzerland and went for picnic at
+St.-Germain-en-Laye with few colleagues of Santanu. And Santanu promised
+he is going to prepare all by himself -simple vegetable-rice and Date
+walnut brownies.
+Lately I borrowed one book on vegetarian by Nicolas Graimes from one
+friend which includes light meals, main courses, tarts, salads, desserts
+etc.</description></item><item><title>C’est fou !</title><link>https://santm.com/posts/2006-07-02-cest-fou/</link><pubDate>Sun, 02 Jul 2006 17:43:00 +0530</pubDate><guid>https://santm.com/posts/2006-07-02-cest-fou/</guid><description>Football - the definition for the same may be quite simple but it
+certainly does have lots of colors. It is a mutli-billion dollar
+business from sporting to TV companies. For some it is as close to their
+religion. People can fight or hug with a complete stranger while
+ignoring his family or close one when there is a match.
+As we live in Europe it is very hard to escape it.</description></item><item><title>Provence - South of France</title><link>https://santm.com/posts/2004-05-10-provence-south-of-france/</link><pubDate>Mon, 10 May 2004 00:32:00 +0530</pubDate><guid>https://santm.com/posts/2004-05-10-provence-south-of-france/</guid><description>We have been thinking to visit South of France for a long time. Writing
+the dairy for this trip is very unique as it had so many vivid events
+one after another. We took a packaged deal with one of the travel agency
+(Hotel and Bus with Sleeping-Berth)
+After the event-full after-noon at Cite Perfecture we started at 9 P.M
+from Paris. It was not a bad start till the first stop.</description></item><item><title>St. Michel</title><link>https://santm.com/posts/2004-02-14-st-michel/</link><pubDate>Sat, 14 Feb 2004 22:05:00 +0530</pubDate><guid>https://santm.com/posts/2004-02-14-st-michel/</guid><description>Perched on a rocky islet in the midst of vast sandbanks exposed to
+powerful tides between Normandy and Brittany (on the north coast of
+France) stand the &amp;lsquo;Wonder of the West&amp;rsquo;, a Gothic-style abbey dedicated
+to the Archangel St Michael
+It was built in 8thcentury, the buildings of Mont St. Michel
+were constructed of granite which were carried from near-by island but
+some limestone were also used in the cloister.</description></item><item><title>Cantal</title><link>https://santm.com/posts/2003-07-18-cantal/</link><pubDate>Fri, 18 Jul 2003 10:27:00 +0530</pubDate><guid>https://santm.com/posts/2003-07-18-cantal/</guid><description>The first trip to France countryside was to Cantal -central region for 3
+days with Murali &amp;amp; Joydeep on July 14th. Cantal, in France&amp;rsquo;s Massif
+Central, is the largest volcanic edifice in Europe. We went by car,
+Murali did a wonderful job by seating at the back of steering wheel &amp;amp;
+Joydeep at navigator’s seat while we two were enjoying sleeping (from
+time to time) at back seat. We enjoyed a natural landscape which was
+really worth seeing through own eyes- rolling hills, lush green
+farmlands, small mountains, forests &amp;amp; valleys.</description></item><item><title>Visiting Paris a Desi Guide</title><link>https://santm.com/posts/2003-06-06-visiting-paris-a-desi-guide/</link><pubDate>Fri, 06 Jun 2003 21:01:00 +0530</pubDate><guid>https://santm.com/posts/2003-06-06-visiting-paris-a-desi-guide/</guid><description>Me and Pamela are living in Paris for a while now and we are still
+enjoying going around and exploring Paris. Lots of my friends asked me
+about our personal opinions on the same before visiting Paris and France
+for a week or so. So here it is will all the best information that I can
+write down with out making it too boring for you.
+**A brief about Paris:**Paris is divided
+in 2 main parts by the River Seine; the left bank and the right.</description></item></channel></rss>

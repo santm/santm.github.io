@@ -1,24 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Orsay on Aashiyana of Pamela Santanu</title>
-    <link>https://blog.santm.com/tags/orsay/</link>
-    <description>Recent content in Orsay on Aashiyana of Pamela Santanu</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 14 Nov 2005 09:36:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://blog.santm.com/tags/orsay/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Orsay revisited</title>
-      <link>https://blog.santm.com/posts/2005-11-14-orsay-revisited/</link>
-      <pubDate>Mon, 14 Nov 2005 09:36:00 +0530</pubDate>
-      
-      <guid>https://blog.santm.com/posts/2005-11-14-orsay-revisited/</guid>
-      <description>To my greatest surprise I found failure in implementing a perfect backupsystem for my digital images. Somehow I lost all the pictures from Orsaymuseum. May be I just deleted them(by mistake)!!! Yes I know the troubleof digital memories they are very easy to capture but most difficult tosave. There are lists of problem that can happen to your golden past;starting with the media card to Hard Drive not to mention virus problemsor accidental deletion of files</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Orsay on Aashiyana of Pamela Santanu</title><link>https://santm.com/tags/orsay/</link><description>Recent content in Orsay on Aashiyana of Pamela Santanu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Nov 2005 09:36:00 +0530</lastBuildDate><atom:link href="https://santm.com/tags/orsay/index.xml" rel="self" type="application/rss+xml"/><item><title>Orsay revisited</title><link>https://santm.com/posts/2005-11-14-orsay-revisited/</link><pubDate>Mon, 14 Nov 2005 09:36:00 +0530</pubDate><guid>https://santm.com/posts/2005-11-14-orsay-revisited/</guid><description>To my greatest surprise I found failure in implementing a perfect backup
+system for my digital images. Somehow I lost all the pictures from Orsay
+museum. May be I just deleted them(by mistake)!!! Yes I know the trouble
+of digital memories they are very easy to capture but most difficult to
+save. There are lists of problem that can happen to your golden past;
+starting with the media card to Hard Drive not to mention virus problems
+or accidental deletion of files</description></item></channel></rss>

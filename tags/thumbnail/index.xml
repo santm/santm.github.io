@@ -1,25 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>thumbnail on Aashiyana of Pamela Santanu</title>
-    <link>https://blog.santm.com/tags/thumbnail/</link>
-    <description>Recent content in thumbnail on Aashiyana of Pamela Santanu</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 04 Nov 2005 02:07:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://blog.santm.com/tags/thumbnail/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>photo album : imagemagick (part -1)</title>
-      <link>https://blog.santm.com/posts/2005-11-04-photo-album-imagemagick-part-1/</link>
-      <pubDate>Fri, 04 Nov 2005 02:07:00 +0530</pubDate>
-      
-      <guid>https://blog.santm.com/posts/2005-11-04-photo-album-imagemagick-part-1/</guid>
-      <description>Quick and dirty way of creating photo album with imagemagick, creatingimages with black border as it looks good for all
-#!/bin/cshset files = `echo [0-9]*.jpg`echo $filesforeach file ( $files )set w = `identify -format &amp;quot;%w&amp;quot; $file`set h = `identify -format &amp;quot;%h&amp;quot; $file`if ($w &amp;gt; $h) then convert $file -thumbnail 500X -bordercolor black -border 1 /tmp/foo100/$fileelse convert $file -thumbnail X500 -bordercolor black -border 1 /tmp/foo100/$fileendifend </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>thumbnail on Aashiyana of Pamela Santanu</title><link>https://santm.com/tags/thumbnail/</link><description>Recent content in thumbnail on Aashiyana of Pamela Santanu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Nov 2005 02:07:00 +0530</lastBuildDate><atom:link href="https://santm.com/tags/thumbnail/index.xml" rel="self" type="application/rss+xml"/><item><title>photo album : imagemagick (part -1)</title><link>https://santm.com/posts/2005-11-04-photo-album-imagemagick-part-1/</link><pubDate>Fri, 04 Nov 2005 02:07:00 +0530</pubDate><guid>https://santm.com/posts/2005-11-04-photo-album-imagemagick-part-1/</guid><description>Quick and dirty way of creating photo album with imagemagick, creating
+images with black border as it looks good for all
+#!/bin/cshset files = `echo [0-9]*.jpg`echo $filesforeach file ( $files )set w = `identify -format &amp;quot;%w&amp;quot; $file`set h = `identify -format &amp;quot;%h&amp;quot; $file`if ($w &amp;gt; $h) then convert $file -thumbnail 500X -bordercolor black -border 1 /tmp/foo100/$fileelse convert $file -thumbnail X500 -bordercolor black -border 1 /tmp/foo100/$fileendifend</description></item></channel></rss>

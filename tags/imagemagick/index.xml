@@ -1,35 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Imagemagick on Aashiyana of Pamela Santanu</title>
-    <link>https://blog.santm.com/tags/imagemagick/</link>
-    <description>Recent content in Imagemagick on Aashiyana of Pamela Santanu</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 18 Nov 2005 09:11:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://blog.santm.com/tags/imagemagick/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Create Banner with mirror effect by ImageMagick</title>
-      <link>https://blog.santm.com/posts/2005-11-18-create-banner-with-mirror-effect-by-imagemagick/</link>
-      <pubDate>Fri, 18 Nov 2005 09:11:00 +0530</pubDate>
-      
-      <guid>https://blog.santm.com/posts/2005-11-18-create-banner-with-mirror-effect-by-imagemagick/</guid>
-      <description>A simple way to create a text image which will have mirror effects. Thebest part of this you do not have to use any fancy imging software andit takes only few seconds to create the same. The code a single line tomake it easier for Windows
- convert-size 460x130 xc:white -font forte -pointsize 72 -fill &amp;ldquo;#cccccc&amp;rdquo;-annotate 0x180+12+80 &amp;ldquo;Banner Mirror&amp;rdquo; -gaussian 0x2 -stroke black-strokewidth 1 -fill &amp;ldquo;#80904F&amp;rdquo; -stroke black -strokewidth 1 -annotate0x0+12+55 &amp;ldquo;Banner Mirror&amp;rdquo; -draw &amp;ldquo;line 0,68 430,68&amp;rdquo;Banner-Mirror-Imagemagick.</description>
-    </item>
-    
-    <item>
-      <title>photo album : imagemagick (part -1)</title>
-      <link>https://blog.santm.com/posts/2005-11-04-photo-album-imagemagick-part-1/</link>
-      <pubDate>Fri, 04 Nov 2005 02:07:00 +0530</pubDate>
-      
-      <guid>https://blog.santm.com/posts/2005-11-04-photo-album-imagemagick-part-1/</guid>
-      <description>Quick and dirty way of creating photo album with imagemagick, creatingimages with black border as it looks good for all
-#!/bin/cshset files = `echo [0-9]*.jpg`echo $filesforeach file ( $files )set w = `identify -format &amp;quot;%w&amp;quot; $file`set h = `identify -format &amp;quot;%h&amp;quot; $file`if ($w &amp;gt; $h) then convert $file -thumbnail 500X -bordercolor black -border 1 /tmp/foo100/$fileelse convert $file -thumbnail X500 -bordercolor black -border 1 /tmp/foo100/$fileendifend </description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Imagemagick on Aashiyana of Pamela Santanu</title><link>https://santm.com/tags/imagemagick/</link><description>Recent content in Imagemagick on Aashiyana of Pamela Santanu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 18 Nov 2005 09:11:00 +0530</lastBuildDate><atom:link href="https://santm.com/tags/imagemagick/index.xml" rel="self" type="application/rss+xml"/><item><title>Create Banner with mirror effect by ImageMagick</title><link>https://santm.com/posts/2005-11-18-create-banner-with-mirror-effect-by-imagemagick/</link><pubDate>Fri, 18 Nov 2005 09:11:00 +0530</pubDate><guid>https://santm.com/posts/2005-11-18-create-banner-with-mirror-effect-by-imagemagick/</guid><description>A simple way to create a text image which will have mirror effects. The
+best part of this you do not have to use any fancy imging software and
+it takes only few seconds to create the same. The code a single line to
+make it easier for Windows
+convert
+-size 460x130 xc:white -font forte -pointsize 72 -fill &amp;ldquo;#cccccc&amp;rdquo;
+-annotate 0x180+12+80 &amp;ldquo;Banner Mirror&amp;rdquo; -gaussian 0x2 -stroke black
+-strokewidth 1 -fill &amp;ldquo;#80904F&amp;rdquo; -stroke black -strokewidth 1 -annotate
+0x0+12+55 &amp;ldquo;Banner Mirror&amp;rdquo; -draw &amp;ldquo;line 0,68 430,68&amp;rdquo;
+Banner-Mirror-Imagemagick.</description></item><item><title>photo album : imagemagick (part -1)</title><link>https://santm.com/posts/2005-11-04-photo-album-imagemagick-part-1/</link><pubDate>Fri, 04 Nov 2005 02:07:00 +0530</pubDate><guid>https://santm.com/posts/2005-11-04-photo-album-imagemagick-part-1/</guid><description>Quick and dirty way of creating photo album with imagemagick, creating
+images with black border as it looks good for all
+#!/bin/cshset files = `echo [0-9]*.jpg`echo $filesforeach file ( $files )set w = `identify -format &amp;quot;%w&amp;quot; $file`set h = `identify -format &amp;quot;%h&amp;quot; $file`if ($w &amp;gt; $h) then convert $file -thumbnail 500X -bordercolor black -border 1 /tmp/foo100/$fileelse convert $file -thumbnail X500 -bordercolor black -border 1 /tmp/foo100/$fileendifend</description></item></channel></rss>
