@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech Notes on Aashiyana of Pamela Santanu</title>
+    <link>https://blog.santm.com/tags/tech-notes/</link>
+    <description>Recent content in Tech Notes on Aashiyana of Pamela Santanu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Jul 2014 15:50:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://blog.santm.com/tags/tech-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Indian Mobile scene and future .... </title>
+      <link>https://blog.santm.com/posts/2014-07-17-indian-mobile-scene-and-future/</link>
+      <pubDate>Thu, 17 Jul 2014 15:50:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2014-07-17-indian-mobile-scene-and-future/</guid>
+      <description>As you know the growth of mobile is one of BIG discussion point of anytechnology seminar or talk show you attend today. Everybody alreadypredicting more and more people will use mobile to accessinternet/information/e-commerce compared to traditional desktop orlaptop. And in a country like India there will be lots of users who willbe &amp;ldquo;on-line&amp;rdquo; for the first time and they will directly use a smartphone bypassing key-board and mice altogether, in numbers they might belarger than some European country.</description>
+    </item>
+    
+    <item>
+      <title>Google Page Test, CloudFlare and W3 total Cache</title>
+      <link>https://blog.santm.com/posts/2013-07-03-google-page-test-cloudflare-and-w3-total-cache/</link>
+      <pubDate>Wed, 03 Jul 2013 17:32:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2013-07-03-google-page-test-cloudflare-and-w3-total-cache/</guid>
+      <description>Installed all these three on pamela.santm.com and blog.santm.com whichare running on wordpress 3.6 trunk. moved the dns details to cloudflare.While Pamela&amp;rsquo;s hobby site did very well Google page test result our blogresult was not great. Looks like the culprit is inbuilt gallery ofwordpress which is re-sizing images and seving them on fly causing highserver time. the command that helped me a lot is &amp;ldquo;mogrify -strip *.</description>
+    </item>
+    
+    <item>
+      <title>Page Speed - Web site broken</title>
+      <link>https://blog.santm.com/posts/2011-07-01-page-speed-web-site-broken/</link>
+      <pubDate>Fri, 01 Jul 2011 18:22:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2011-07-01-page-speed-web-site-broken/</guid>
+      <description>Playing with Google lab and its &amp;ldquo;Pagespeed&amp;quot;. Hope things gets fixed soon.</description>
+    </item>
+    
+    <item>
+      <title>McAfee antivirus program freezes PCs</title>
+      <link>https://blog.santm.com/posts/2010-04-23-mcafee-antivirus-program-freezes-pcs/</link>
+      <pubDate>Fri, 23 Apr 2010 17:34:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2010-04-23-mcafee-antivirus-program-freezes-pcs/</guid>
+      <description>After starting my office laptop it goes for freeze within 5 minutes. Iwas very worried what went wrong; my current laptop is cranky and thatis why ordered a new one which was delivered yesterday. The new laptopis getting build by the IT Team as I write this post. But i was worriedthat I will lost all my data like a horror movie where every thing youdo goes wrong.</description>
+    </item>
+    
+    <item>
+      <title>New widget with Media RSS</title>
+      <link>https://blog.santm.com/posts/2009-09-27-new-widget-with-media-rss/</link>
+      <pubDate>Sun, 27 Sep 2009 22:17:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2009-09-27-new-widget-with-media-rss/</guid>
+      <description>It was a long time I played with new technology and changed any the waythe this blog looks to you. Liked few themes and tried to put them inmy own taste before I found thecurrent one. But some how those themes really did not looks so cool toand attractive to me at the end. So I went with the current one and didnot did not did much changes.</description>
+    </item>
+    
+    <item>
+      <title>Gallerry 3 sneak peak</title>
+      <link>https://blog.santm.com/posts/2009-05-08-gallerry-3-sneak-peak/</link>
+      <pubDate>Fri, 08 May 2009 16:03:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2009-05-08-gallerry-3-sneak-peak/</guid>
+      <description>Gallery 3 isgoing to a big change from current gallery 2 and initial alpha releasedid not have any migration path from gallery2. It was pushed to Betarelease after 2 alpha releases. but to my surprise I found it wasimplemented in alpha 4 and here is the test result of a new neat code. Iam really liking the new compact code making gallery 3 faster and leancompared to its predecessor.</description>
+    </item>
+    
+    <item>
+      <title>ZoneAlarm Patch Tuesday Promotion</title>
+      <link>https://blog.santm.com/posts/2008-08-13-zonealarm-patch-tuesday-promotion/</link>
+      <pubDate>Wed, 13 Aug 2008 00:22:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2008-08-13-zonealarm-patch-tuesday-promotion/</guid>
+      <description>Get yourself a free copy of ZoneAlarm Firewall completely free for one year. The offer is valid for onePC per e-mail id. The offer just started at 6AM PST and will be therefor next 24 hours. So do not waste your time and rush to get a freecopy. If you are not sure what Zone Alarm is and why you needone copy or a similar product for your PC I am sure there are zillion ofweb pages to guide you.</description>
+    </item>
+    
+    <item>
+      <title>Rejuvenating old I-Pod</title>
+      <link>https://blog.santm.com/posts/2008-08-07-rejuvenating-old-i-pod/</link>
+      <pubDate>Thu, 07 Aug 2008 21:22:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2008-08-07-rejuvenating-old-i-pod/</guid>
+      <description>Our old faithful I-pod’sbattery died last year; nothing to complain about the same. We have usedit enough and did not have any complain. Only thing that happened is thebattery started to loose charge more often and at the end it stoppedcharging altogether. Just after I got this I-Pod, Apple had to settle alawsuit for lowquality batteries. That way I must say I am happy to survive for 3 yearswith one battery.</description>
+    </item>
+    
+    <item>
+      <title>Wordpress 2.6</title>
+      <link>https://blog.santm.com/posts/2008-07-15-wordpress-2-6/</link>
+      <pubDate>Tue, 15 Jul 2008 20:19:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2008-07-15-wordpress-2-6/</guid>
+      <description>Just upgraded to Wordpress2.6 forboth blog.santm.com andpamela.santm.com without any hitch :)Upgraded few plugins as well and so far so good.</description>
+    </item>
+    
+    <item>
+      <title>Free Theme</title>
+      <link>https://blog.santm.com/posts/2008-02-13-free-theme/</link>
+      <pubDate>Wed, 13 Feb 2008 15:32:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2008-02-13-free-theme/</guid>
+      <description>I just found out d-atmosphere.com is holding a competition where theyare offering a free wordpress theme called WPRemix. It’s a very nice theme with loadsof features.
+The rule is simple - just write about the competition in your blog andpost your link back in the comments on the contest page.
+The winner will be announced on March 1st.</description>
+    </item>
+    
+    <item>
+      <title>Got G(oogle)-Phone</title>
+      <link>https://blog.santm.com/posts/2007-11-12-got-g-oogle-phone/</link>
+      <pubDate>Mon, 12 Nov 2007 18:50:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2007-11-12-got-g-oogle-phone/</guid>
+      <description>Well downloaded G-Phone application fromGoogle. on my Blackberry. All I needed wasdata access enabled phone to download G-phone. The speculation wasrunning high about a new hardware from Google in lots of web sites. Letssee how these applications (Gmail, Google maps, Google news, Googlesearch, Gtalk, Google calender) will work on a normal phone where thedisplay is not as big as Blackberry and you do not have full keyboard ortrack wheel.</description>
+    </item>
+    
+    <item>
+      <title>Skittlish Theme with Silk Icons for Wordpress</title>
+      <link>https://blog.santm.com/posts/2007-05-25-skittlish-theme-with-silk-icons-for-wordpress/</link>
+      <pubDate>Fri, 25 May 2007 21:15:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2007-05-25-skittlish-theme-with-silk-icons-for-wordpress/</guid>
+      <description>Trying to jazz up skittlish theme ofwordpresswith silk icon sets fromfamfamfam.com.In recent time there is new version of skittlish supporting widgets so Ithought it might be a god starting ground. Best part - for few colors(red, orange, green &amp;amp; blue) there are icons available for tag, user(author). But for rest there is none. As I am not a graphic person notsure how should I go forward.</description>
+    </item>
+    
+    <item>
+      <title>Wordpress Bleeding 2.2 and TAG</title>
+      <link>https://blog.santm.com/posts/2007-04-10-wordpress-bleeding-2-2-and-tag/</link>
+      <pubDate>Tue, 10 Apr 2007 15:19:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2007-04-10-wordpress-bleeding-2-2-and-tag/</guid>
+      <description>Just upgraded to the latest beta trunk of wordpress 2.2(bleeding) andfound myself with unrecoverable errors. Realized wordpress incorporatedtagging within the core but the old faithful Ultimate Tag Warrior doesnot work any more :( Found another bug-hunt has started and hope for tag import from (UTW)till then …… have to live with out tags Sigh!</description>
+    </item>
+    
+    <item>
+      <title>Micro$oft Launch @ Mumbai</title>
+      <link>https://blog.santm.com/posts/2007-01-21-micro-oft-launch-mumbai/</link>
+      <pubDate>Sun, 21 Jan 2007 06:49:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2007-01-21-micro-oft-launch-mumbai/</guid>
+      <description>Micro$oft is doing a round of business and technical launch show aroundIndia. The products are Exchange 2007, Office 2007 and Vista. I attendedonly a brief session @ Hyatt.
+Well, somehow my name was not there even though I registered 10 daysbefore the event.
+And my business card with orange and blue dots did not help much to getattention from those desk people. Anyway, it was solid 40 minutes ofwork for me – replied emails, chat with business contact got updatesfrom their team – thanks to CDMA mobile card.</description>
+    </item>
+    
+    <item>
+      <title>Zooomr Pro</title>
+      <link>https://blog.santm.com/posts/2007-01-16-zooomr-pro/</link>
+      <pubDate>Tue, 16 Jan 2007 18:43:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2007-01-16-zooomr-pro/</guid>
+      <description>After trying my luck with flickr I figured out that I have to look foralternative. With Yahoo! there is nothing for free. Almost certainlythey will follow suit when someone else win in their own game like gmailvs yahoo-mail. So trying my luck for Zooomr pro now.
+P.S. I got the pro account :D</description>
+    </item>
+    
+    <item>
+      <title>Another weekend</title>
+      <link>https://blog.santm.com/posts/2007-01-13-another-weekend/</link>
+      <pubDate>Sat, 13 Jan 2007 08:25:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2007-01-13-another-weekend/</guid>
+      <description>Well another day! Some techie note ; upgraded the web site to the latestbeta release of Wordpress. And I found some strange behaviour. This iswhat I put forward to the mailing list. But with few minute of researchfound the root cause.
+WP is adding [code]
+[/code] as extra inside in my [code]
+[/code]This was one example.[code]
+[/code]
+It was happening due to &amp;ldquo;wp-include/formatting.php&amp;rdquo;. I use plaintext mode while doing copy-paste between text-editor from my PC toWordpress Editor.</description>
+    </item>
+    
+    <item>
+      <title>load cpu &amp; memory shell script c program for quick and dirty benchmark</title>
+      <link>https://blog.santm.com/posts/2006-05-18-load-cpu-memory-shell-script-c-program-for-quick-and-dirty-benchmark/</link>
+      <pubDate>Thu, 18 May 2006 23:38:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2006-05-18-load-cpu-memory-shell-script-c-program-for-quick-and-dirty-benchmark/</guid>
+      <description>This script is a simple empty while loop which will load or increase theusage of your cpu. a good way to test your cpu check for different monitoring tool
+while : &amp;gt; do : &amp;gt; done
+/home/sanmisra&amp;gt;more memory.c
+ main () { while ( 1 ) { malloc (10240) ; } }
+ </description>
+    </item>
+    
+    <item>
+      <title>add new administrator and management post for smartdashboard firewall-1</title>
+      <link>https://blog.santm.com/posts/2006-05-04-add-new-administrator-and-management-post-for-smartdashboard-firewall-1/</link>
+      <pubDate>Thu, 04 May 2006 22:18:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2006-05-04-add-new-administrator-and-management-post-for-smartdashboard-firewall-1/</guid>
+      <description>1.Add the user in the system password file for *nix it will be in/etc/passwd and /etc/shadow 2. Add his host(PC) to /etc/hosts 3. Use cpconfig ( /opt/CPshrd-53/bin/) in case of Solaris  Rest is menu driven</description>
+    </item>
+    
+    <item>
+      <title>Home Network ADSL-Network-Phone</title>
+      <link>https://blog.santm.com/posts/2006-01-15-home-network-adsl-network-phone/</link>
+      <pubDate>Sun, 15 Jan 2006 20:10:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2006-01-15-home-network-adsl-network-phone/</guid>
+      <description>I just wanted to share my home network. It is not a state oftechnologies with the latest &amp;amp; greatest wireless or wired network withcomplex router and switches. I did it in old school way with a singlelong CAT5 Ethernet Cable. I have a FreeBox which is an ADSL2 routerconnecting to the main phone jack. The output from theFreeBox connects my PC, Television andPhone. Now all these components are connected with the single wire asI mentioned before.</description>
+    </item>
+    
+    <item>
+      <title>create typewriter effect with ming php for flash (swf) movie</title>
+      <link>https://blog.santm.com/posts/2005-11-25-create-typewriter-effect-with-ming-php-for-flash-swf-movie/</link>
+      <pubDate>Fri, 25 Nov 2005 11:46:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2005-11-25-create-typewriter-effect-with-ming-php-for-flash-swf-movie/</guid>
+      <description>This is nice and simple code it creates the simple effect which youmight have seen in lots of web sites. As it is PHP you can use the samefrom your own news reader to database.
+ setBackground(0x00,0x00,0x00);// SM
+ This is very important as it set sets the speed of the movie// SM -Higher the number faster the typing willappear$movie-&amp;gt;setRate(3);// SM - This one will depends uponyou$movie-&amp;gt;setDimension(600,40);$movie-&amp;gt;setFrames(31);$movie-&amp;gt;nextFrame();//Define your String here $str = &amp;lsquo;Miing Typewriter Effect&amp;rsquo;; /* SM - Asyou note The space between character if not fixed SM - due to fontwidth so you have to figure out your own SM - Now we split our stringand make an array with the same */ $chars = preg_split(&#39;//&#39;, $str,-1, PREG_SPLIT_NO_EMPTY);// print_r($chars);$inc = 0;for($i=0;$isetFont($myFont); $myText-&amp;gt;setColor(255,255,255);$myText-&amp;gt;SetHeight(30); $myText-&amp;gt;addString($chars[$i]); echo(&amp;ldquo;$chars[$i] \n&amp;rdquo;) ; $firstText=$movie-&amp;gt;add($myText);$firstText-&amp;gt;moveTo($inc,30); $inc = $inc + 18; // SM - this is verycritical as you need to add this extra frame to make this effect ofsome typewriter $movie-&amp;gt;nextframe(); // SM - This helps todetermine the width of the movie // SM - turn only if you need thesame // echo &amp;ldquo;inc is $inc \n&amp;rdquo; ; } // SM - we do not want to loop thismovie// $movie-&amp;gt;add(new SWFAction(&amp;ldquo;stop();&amp;quot;)); // SM - Save themovie $movie-&amp;gt;save(&amp;quot;/tmp/banner.</description>
+    </item>
+    
+    <item>
+      <title>Create Banner with mirror effect by ImageMagick</title>
+      <link>https://blog.santm.com/posts/2005-11-18-create-banner-with-mirror-effect-by-imagemagick/</link>
+      <pubDate>Fri, 18 Nov 2005 09:11:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2005-11-18-create-banner-with-mirror-effect-by-imagemagick/</guid>
+      <description>A simple way to create a text image which will have mirror effects. Thebest part of this you do not have to use any fancy imging software andit takes only few seconds to create the same. The code a single line tomake it easier for Windows
+ convert-size 460x130 xc:white -font forte -pointsize 72 -fill &amp;ldquo;#cccccc&amp;rdquo;-annotate 0x180+12+80 &amp;ldquo;Banner Mirror&amp;rdquo; -gaussian 0x2 -stroke black-strokewidth 1 -fill &amp;ldquo;#80904F&amp;rdquo; -stroke black -strokewidth 1 -annotate0x0+12+55 &amp;ldquo;Banner Mirror&amp;rdquo; -draw &amp;ldquo;line 0,68 430,68&amp;rdquo;Banner-Mirror-Imagemagick.</description>
+    </item>
+    
+    <item>
+      <title>Reached 10K and folding</title>
+      <link>https://blog.santm.com/posts/2005-11-16-reached-10k-and-folding/</link>
+      <pubDate>Wed, 16 Nov 2005 13:21:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2005-11-16-reached-10k-and-folding/</guid>
+      <description>Folding @ Home is a Stanford University project of understating proteinfolding. It is distributed computing where small tasks are sent toPersonal Computers (PC) across the world and it uses those CPU power tocalculate. The results are sent back to the main computer. It is a verysafe program and probably you will not notice any performance change foryour computer.
+There are similar projects for understanding Genome to AIDS which usesmore or less similar technology of distributed computing.</description>
+    </item>
+    
+    <item>
+      <title>Part -2</title>
+      <link>https://blog.santm.com/posts/2005-11-04-part-2/</link>
+      <pubDate>Fri, 04 Nov 2005 02:10:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2005-11-04-part-2/</guid>
+      <description>create individual pages for each image dirty way with php [code] &amp;lt;?php //$image_files=[] ; $type = &amp;ldquo;jpg&amp;rdquo;; $abspath_folder = &amp;ldquo;/home/santm/public_html/PamelasCreation/images&amp;rdquo; ; if ( is_dir ( $abspath_folder ) ) { if ( $handle = opendir( $abspath_folder ) ) { while (false !== ( $file = readdir($handle ) ) ) { if ( $file != &amp;lsquo;.&amp;rsquo; &amp;amp;&amp;amp; $file != &amp;lsquo;..&amp;rsquo; &amp;amp;&amp;amp; $file != &amp;lsquo;CVS&amp;rsquo; &amp;amp;&amp;amp; $file !=&amp;lsquo;index.html&amp;rsquo; ) { //santm echo &amp;ldquo;FILE is $file \n&amp;rdquo; ; $the_array[] = $file; } } } } closedir( $handle ); // end of reading the directory // santm print_r ( $the_array ); // making sure the array only has our jpg image starting with a number foreach ( $the_array as $img ) { if ( !</description>
+    </item>
+    
+    <item>
+      <title>photo album : imagemagick (part -1)</title>
+      <link>https://blog.santm.com/posts/2005-11-04-photo-album-imagemagick-part-1/</link>
+      <pubDate>Fri, 04 Nov 2005 02:07:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2005-11-04-photo-album-imagemagick-part-1/</guid>
+      <description>Quick and dirty way of creating photo album with imagemagick, creatingimages with black border as it looks good for all
+#!/bin/cshset files = `echo [0-9]*.jpg`echo $filesforeach file ( $files )set w = `identify -format &amp;quot;%w&amp;quot; $file`set h = `identify -format &amp;quot;%h&amp;quot; $file`if ($w &amp;gt; $h) then convert $file -thumbnail 500X -bordercolor black -border 1 /tmp/foo100/$fileelse convert $file -thumbnail X500 -bordercolor black -border 1 /tmp/foo100/$fileendifend </description>
+    </item>
+    
+    <item>
+      <title>Migrating rrd database between different architecture</title>
+      <link>https://blog.santm.com/posts/2005-10-11-migrating-rrd-database-between-different-architecture/</link>
+      <pubDate>Tue, 11 Oct 2005 20:18:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2005-10-11-migrating-rrd-database-between-different-architecture/</guid>
+      <description>This script you run on the source host from the same directory where allthose rrd files are there. I found this very helpful while migratingbetween Linux and Solaris.
+#/bin/cshset all_files=`echo *.rrd`echo $all_filesforeach file ( $all_files )set base = `basename $file .rrd`/bin/rrdtool dump $file &amp;gt; /tmp/new1/$base.xmlend The do a `tar` with `gzip` as that will save lots of space and timewhile transferring data between machines.</description>
+    </item>
+    
+    <item>
+      <title>Gallery2</title>
+      <link>https://blog.santm.com/posts/2005-09-29-gallery2/</link>
+      <pubDate>Thu, 29 Sep 2005 20:36:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2005-09-29-gallery2/</guid>
+      <description>Well I am having lots of trouble with a simple gallery2 installationwith 15 pictures for my wife&amp;rsquo;s hobby pictures. While I am running a 1600picture gallery on the same server with out any problem touch wood. Theback on the main one not there.
+And i am having wonderful tech support from dot5 hosting to say theleast. The guy does not even know what is Unix he replies it isFreeBSD.</description>
+    </item>
+    
+    <item>
+      <title>banner with imagemgick convert</title>
+      <link>https://blog.santm.com/posts/2005-08-11-banner-with-imagemgick-convert/</link>
+      <pubDate>Thu, 11 Aug 2005 01:43:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2005-08-11-banner-with-imagemgick-convert/</guid>
+      <description>To create a banner with mirror effect!!
+convert -size 600x130 xc:transparent -font forte -pointsize 72 -fill&amp;ldquo;#cccccc&amp;rdquo; -annotate 0x180+12+80 &amp;ldquo;Pamela&amp;rsquo;s Gallery&amp;rdquo; -gaussian 0x2-stroke black -strokewidth 1 -fill &amp;ldquo;#ff3600&amp;rdquo; -stroke black -strokewidth1 -annotate 0x0+12+55 &amp;ldquo;Pamela&amp;rsquo;s Gallery&amp;rdquo; -draw &amp;ldquo;line 0,68 570,68&amp;rdquo;banner.png</description>
+    </item>
+    
+    <item>
+      <title>ssh and scp</title>
+      <link>https://blog.santm.com/posts/2005-08-11-ssh-and-scp/</link>
+      <pubDate>Thu, 11 Aug 2005 00:58:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2005-08-11-ssh-and-scp/</guid>
+      <description>Via tunnel
+scp -P 2222 font_slewed.gif santm@localhost:/tmp/banner.gif ssh -p 2222 santm@localhost
+nomally :</description>
+    </item>
+    
+    <item>
+      <title>[How To] Puttygen Puttssh for ssh</title>
+      <link>https://blog.santm.com/posts/2005-08-05-how-to-puttygen-puttssh-for-ssh/</link>
+      <pubDate>Fri, 05 Aug 2005 19:13:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2005-08-05-how-to-puttygen-puttssh-for-ssh/</guid>
+      <description>1. Run PuttyKeyGen 1.a Make sure you choose SSH2DSA at the bottom 1.b Click on Generate 1.c Move Mouse as mentioned.
+ Once the key is generated 2.a Put proper comment for Key username and hostname 2.b Type your Password please try to choose a proper password i.e. withnumber, special character, upper case hard to guess 2.c Save the public and private key I saved in C:\Documents and Settings\santanu.misra</description>
+    </item>
+    
+    <item>
+      <title>New PC</title>
+      <link>https://blog.santm.com/posts/2005-04-15-new-pc/</link>
+      <pubDate>Fri, 15 Apr 2005 17:31:00 +0530</pubDate>
+      
+      <guid>https://blog.santm.com/posts/2005-04-15-new-pc/</guid>
+      <description>After months of checking web sites for prices reading forums for reviewand always thinking about moving out Paris I got my new PC. It was notan easy choice as all these years I wanted a Mac from Apple. AndMini-Mac was a real contender for long time.
+But at the end I went for mini-PC because of the money and choice offlexibility I have with the same.</description>
+    </item>
+    
+  </channel>
+</rss>
