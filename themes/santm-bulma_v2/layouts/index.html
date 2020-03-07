@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html>
   {{- partial "head.html" . -}}
-
-    <body>
-      <!-- Navigation Bar -->
-      <nav class="navbar is-link is-fixed-top">
+<body>
+    <section class="hero is-link is-bold is-large">
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
         <div class="navbar-brand">
-          <span class="navbar-burger burger" data-target="navbarMenu">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </span>
+          
+          <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+            <span class="has-text-white"></span>
+            <span class="has-text-white"></span>
+            <span class="has-text-white"></span>
+          </span>
         </div>
-        <div id="navbarMenu" class="navbar-menu">
+        <div id="navbarMenuHeroB" class="navbar-menu">
           <div class="navbar-end">
-           <span class="navbar-item"><a class="button is-white is-outlined" href="#"><span class="icon"><i class="fa fa-home"></i></span><span>Home</span></a></span>
-           <span class="navbar-item"><a class="button is-white is-outlined" href="/posts/"><span class="icon"><i class="fas fa-newspaper"></i></span><span>Posts</span></a></span>
-           <span class="navbar-item"><a class="button is-white is-outlined" href="/about/"><span class="icon"><i class="fas fa-info"></i></span><span>About</span></a></span>
-           <span class="navbar-item"><a class="button is-white is-outlined" href="/contact/"><span class="icon"><i class="fas fa-id-card"></i></span><span>Contact</span></a></span>
+            <!--<a class="navbar-item  button" href=#><span class=icon><i class="fa fa-home"></i></span><span>Home</span></a>
+            <a class="navbar-item" href=/posts/><span class=icon><i class="fas fa-newspaper"></i></span><span>Posts</span></a>
+			<a class="navbar-item" href=/about/><span class=icon><i class="fas fa-info"></i></span><span>About</span></a>
+			<a class="navbar-item" href=/contact/><span class=icon><i class="fas fa-id-card"></i></span><span>Contact</span></a> 
+    <span class="navbar-item "><a class="button is-link"><span class="icon"><i class="fab fa-github"></i></span><span>Download</span></a></span> -->
+	<span class="navbar-item is-active"><a class="button is-link" href=#><span class="icon"><i class="fas fa-home"></i></span><span>Home</span></a></span>
+	<span class="navbar-item"><a class="button is-link" href=/posts/><span class="icon"><i class="fas fa-newspaper"></i></span><span>Blog</span></a></span>
+	<span class="navbar-item"><a class="button is-link" href=/about/><span class="icon"><i class="fas fa-info"></i></span><span>About</span></a></span>
+	<span class="navbar-item"><a class="button is-link" href=/contact/><span class="icon"><i class="fas fa-id-card"></i></span><span>Contact</span></a></span>
           </div>
         </div>
-      </nav>      
-      <!-- Header -->
-      <section class="hero is-link is-bold is-fullheight is-fullheight-with-navbar">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="title is-1"> Hello! Namaste !</h1>
-            <h2 class="subtitle is-4">Bienvenu, santm.com is a now 20 years young website. </p>Please the Blog/Post section for more.</h2></p>Parts of the web site might be broken due to frequent changes</h2>
-          </div>
-        </div>
-      </section>   
-    </body>
+      </div>
+    </nav>
+  </div>
+</section>  
+<section class="hero is-link is-bold is-fullheight is-fullheight-with-navbar">
+<div class=hero-body>
+<div class=container>
+<h1 class="title is-1">Hello!</h1><h1 class="title is-1">Namaste!</h1>
+<br>
+<h2 class="subtitle is-4">Bienvenu, santm.com is now 20 years young.</p>Please visit the Blog section for more.</h2>
+</p>Parts of the web site might be broken due to frequent changes</h2>
+</div>
+</div>
+</section>
+
+
+  	 <script>
+          (function() {
+            var burger = document.querySelector('.burger');
+            var nav = document.querySelector('#'+burger.dataset.target);
+
+            burger.addEventListener('click', function(){
+              burger.classList.toggle('is-active');
+              nav.classList.toggle('is-active');
+            });
+          })();
+        </script>
+</section>
      
-      <script async type="text/javascript" src="../js/bulma.js"></script>
-    </body>
+  </body>
+ 
 </html>
