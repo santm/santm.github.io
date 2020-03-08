@@ -2,7 +2,7 @@
       
         <div class="navbar-brand">
           {{ range .Site.Params.social }}
-								<a class="navbar-item" href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }}"></i></a>
+								<a class="navbar-item" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
 								{{ end }}
                 <span class="navbar-burger burger" data-target="navMenu">
                   <span></span>
