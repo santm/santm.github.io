@@ -17,6 +17,6 @@ The website was initially hosted on Yahoo!'s(*Lycos*) free hosting called [Tripo
 
 Moved Google's [blogspot](https://blogspot.com) with custom domain. While it is a great tool for blogging the template choices are very limited and can never trust those free templates with many hidden codes.
 
-Now back to static hosting with [Hugo](https://gohugo.io). The theme is a simple, minimalist & responsive build on [Bulma](https://bulma.io) framework made be me. The hosting now moved to [GitHub](https://github.org) pages. 
+Now back to static hosting with [Hugo](https://gohugo.io). The theme is a simple, minimalist & responsive build on [Bulma](https://bulma.io) framework made by me. The hosting now moved to [GitHub](https://github.org) pages. 
 
 With rise of social media connecting with friends and family is very easy and the blog section show drastic reduction. There are lots of challenge in migrating service and that always causes many part of the website not to be perfect. But this gives me real life problem to be solved.  I learned a lot in the that process.
