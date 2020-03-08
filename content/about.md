@@ -6,7 +6,7 @@ layout : "splabout"
 # About Us #
 This is an about page for Misra Family.
 **Aarush**, **Pamela** & **Santanu** in alphabetical order.
-We are currently based out of Bangalore, India. In recent past, we lived in Mumbai (Bombay), Paris and Bay-Area (SFO).   
+We are currently based out of Bangalore, India. In past, we lived in Mumbai (Bombay), Paris and Bay-Area (SFO).   
 We like to travel, make new friends and explore and understand diversity and cultures as best they could with their crazy day jobs. Check out thousands of photos, travelog, random thoughts and creativity.  
 
 ## Brief history ##
