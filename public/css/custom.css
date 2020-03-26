@@ -1,0 +1,2 @@
+.has-bg-about { background: url('/images/about.jpg') center center; background-size:cover;}
+@media (max-width: 768px) {.has-bg-about { background:url('/images/about-vertical.jpg') center center; background-size:cover; height: 315px; } .hero {padding: 0px; margin:0px}}
