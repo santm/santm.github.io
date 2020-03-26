@@ -91,7 +91,7 @@ function renderSearchResults(results) {
       // Create result item
       var li = document.createElement('div');
       li.classList.add('card');
-      li.innerHTML = '<div class="card-content"><p class="title"><a href="' + result.ref + '">' + resultDetails[result.ref].title + '</a></p><p class="subtitle">' + resultDetails[result.ref].excerpt + '</p></div>';
+      li.innerHTML = '<div class="card-content"><p class="subtitle"><a href="' + result.ref + '">' + resultDetails[result.ref].title + '</a></p><p class="card-content is-hidden-touch">' + resultDetails[result.ref].excerpt + '</p></div>';
       ul.appendChild(li);
     });
 
