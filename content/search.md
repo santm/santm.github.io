@@ -1,6 +1,7 @@
 ---
 title: "Search"
-date: 2018-03-27T16:16:11-04:00
+date: 1999-01-01
 layout: splsearch
 exclude_search: true
 ---
+
