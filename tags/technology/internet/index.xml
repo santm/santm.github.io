@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technology/Internet on Aashiyana of Pamela Santanu</title><link>https://santm.com/tags/technology/internet/</link><description>Recent content in Technology/Internet on Aashiyana of Pamela Santanu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://santm.com/tags/technology/internet/index.xml" rel="self" type="application/rss+xml"/><item><title>Indian Mobile scene and future ....</title><link>https://santm.com/posts/2014-07-17-indian-mobile-scene-and-future/</link><pubDate>Thu, 17 Jul 2014 15:50:00 +0530</pubDate><guid>https://santm.com/posts/2014-07-17-indian-mobile-scene-and-future/</guid><description>As you know the growth of mobile is one of BIG discussion point of any
+technology seminar or talk show you attend today. Everybody already
+predicting more and more people will use mobile to access
+internet/information/e-commerce compared to traditional desktop or
+laptop. And in a country like India there will be lots of users who will
+be &amp;ldquo;on-line&amp;rdquo; for the first time and they will directly use a smart
+phone bypassing key-board and mice altogether, in numbers they might be
+larger than some European country.</description></item><item><title>Google Page Test, CloudFlare and W3 total Cache</title><link>https://santm.com/posts/2013-07-03-google-page-test-cloudflare-and-w3-total-cache/</link><pubDate>Wed, 03 Jul 2013 17:32:00 +0530</pubDate><guid>https://santm.com/posts/2013-07-03-google-page-test-cloudflare-and-w3-total-cache/</guid><description>Installed all these three on pamela.santm.com and blog.santm.com which
+are running on wordpress 3.6 trunk. moved the dns details to cloudflare.
+While Pamela&amp;rsquo;s hobby site did very well Google page test result our blog
+result was not great. Looks like the culprit is inbuilt gallery of
+wordpress which is re-sizing images and seving them on fly causing high
+server time. the command that helped me a lot is &amp;ldquo;mogrify -strip *.</description></item></channel></rss>
