@@ -1,10 +1,10 @@
 ---
-title: "About"
+title: "About Us"
 date: 2020-02-23T20:17:21+05:30
 layout : "splabout"
 exclude_search: true
 ---
-# About Us #
+## Quick Intro ##
 This is an about page for Misra Family.
 **Aarush**, **Pamela** & **Santanu** in alphabetical order.
 We are currently based out of Bangalore, India. In past, we lived in Mumbai (Bombay), Paris and Bay-Area (SFO).   

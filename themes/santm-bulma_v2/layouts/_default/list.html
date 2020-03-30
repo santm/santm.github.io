@@ -1,26 +1,16 @@
-{{ define "header" }} {{ partial "menu" . }} {{ end }}
-
 {{ define "main" }}
-<main>
-  <div class="columns is-fullheight">
-      <div class="column">
-          <section class="hero is-light is-bold">
-              <div class="hero-body">
-                <section class="hero">
-                  <div class="hero-body">
-                    <div class="container">
-                      <h1 class="title is-1 has-text-centered">
-                        {{ .Type | humanize }}
-                      </h1>
-                    </div>
-                  </div>
-                </section>
-              </div>
-          </section>
-      </div>
+<section class="hero is-primary is-bold">
+  {{ partial "header" . }} 
+  <div class="hero-body">
+  <div class="container has-text-centered">
+    <br><h1 class="my_h1">{{ .Page.Title}}</h1>    
   </div>
-  <!-- testing -->
+  </div>
+</section>
+  
+<section>
   <div class="container is-fluid column is-8 is-offset-2">
+    <div class="content blog-post section has-text-justified" itemprop="articleBody">
     <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
         {{.Content}}
 
@@ -42,8 +32,10 @@
         {{ end }}
         {{ end }}
 </table>
-
-    </div>
+</div>
+</div>
+</section>
+    
   <!-- testing -->
 
 </main>

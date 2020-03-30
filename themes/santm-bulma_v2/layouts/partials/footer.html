@@ -6,5 +6,15 @@
 	<a href="https://gohugo.io" rel="nofollow">Hugo </a> <span class="icon has-tooltip" data-tooltip="Plenty of Coffee"><i class="fas fa-mug-hot fa-lg" style="color:#6F4E37;"></i></span>
    </span>. Hosted by <a class="is-inverted" href="https://www.github.com"><span class="icon"><i class="fab fa-github"></i></span> GitHub</a>
    </div>
-
 </footer>
+<script>
+  (function() {
+    var burger = document.querySelector('.burger');
+    var nav = document.querySelector('#'+burger.dataset.target);
+
+    burger.addEventListener('click', function(){
+      burger.classList.toggle('is-active');
+      nav.classList.toggle('is-active');
+    });
+  })();
+</script>

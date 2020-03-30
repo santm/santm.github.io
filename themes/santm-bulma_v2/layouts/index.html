@@ -2,33 +2,8 @@
 <html>
   {{- partial "head.html" . -}}
 <body>
-  <section class="hero is-link is-large">
-  <div class="hero-head">
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-brand">
-          <span class="navbar-burger burger" data-target="navbarMenuHeroB">
-            <span class="has-text-white"></span>
-            <span class="has-text-white"></span>
-            <span class="has-text-white"></span>
-          </span>
-        </div>
-        <div id="navbarMenuHeroB" class="navbar-menu">
-          <div class="navbar-end">
-            <!--<a class="navbar-item  button" href=#><span class=icon><i class="fa fa-home"></i></span><span>Home</span></a>
-            <a class="navbar-item" href=/posts/><span class=icon><i class="fas fa-newspaper"></i></span><span>Posts</span></a>
-			<a class="navbar-item" href=/about/><span class=icon><i class="fas fa-info"></i></span><span>About</span></a>
-			<a class="navbar-item" href=/contact/><span class=icon><i class="fas fa-id-card"></i></span><span>Contact</span></a> 
-    <span class="navbar-item "><a class="button is-link"><span class="icon"><i class="fab fa-github"></i></span><span>Download</span></a></span> -->
-	<span class="navbar-item is-active"><a class="button is-link" href=#><span class="icon"><i class="fas fa-home"></i></span><span>Home</span></a></span>
-	<span class="navbar-item"><a class="button is-link" href=/posts/><span class="icon"><i class="fas fa-newspaper"></i></span><span>Blog</span></a></span>
-	<span class="navbar-item"><a class="button is-link" href=/about/><span class="icon"><i class="fas fa-info"></i></span><span>About</span></a></span>
-	<span class="navbar-item"><a class="button is-link" href=/contact/><span class="icon"><i class="fas fa-id-card"></i></span><span>Contact</span></a></span>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div>
+ <section class="hero is-link is-large">
+   {{ partial "header" . }}
 </section>  
 <section class="hero is-link is-bold is-fullheight-with-navbar">
 <div class=hero-body>
@@ -40,19 +15,6 @@
 </div>
 </div>
 </section>
-
-
-  	 <script>
-          (function() {
-            var burger = document.querySelector('.burger');
-            var nav = document.querySelector('#'+burger.dataset.target);
-
-            burger.addEventListener('click', function(){
-              burger.classList.toggle('is-active');
-              nav.classList.toggle('is-active');
-            });
-          })();
-        </script>
 <!-- Latest 2 blog post-->
 <section class="section">
   <div class="container">

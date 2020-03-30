@@ -1,12 +1,9 @@
-{{ define "header" }} {{ partial "menu" . }} {{ end }}
-
 {{ define "main" }}
-<<h1> test </h1>
-<div class="has-shadow" itemscope itemtype="http://schema.org/BlogPosting">
-<section class="hero is-info is-bold">
+<section class="hero is-medium is-dark image-box" style="--image-url: url(/images/search-1.jpg">
+  {{ partial "header" . }} 
   <div class="hero-body">
   <div class="container has-text-centered">
-    <br><h1 class="title is-2">{{ .Page.Title}}</h1>
+    <h1>{{ .Page.Title}}</h1>
     </div>
   </div>
 </section>

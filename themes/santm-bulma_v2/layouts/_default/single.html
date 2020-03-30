@@ -1,38 +1,33 @@
-{{ define "header" }} {{ partial "menu" . }} {{ end }}
-
 {{ define "main" }}
-<div class="has-shadow" itemscope itemtype="http://schema.org/BlogPosting">
-<section class="hero is-light is-bold">
+<section class="hero is-primary is-bold">
+  {{ partial "header" . }} 
   <div class="hero-body">
   <div class="container has-text-centered">
-    <br><h1 class="title is-2">{{ .Page.Title}}</h1>
-    <span class="icon"><i class="fa fa-tags"></i></span>
+    <h1>{{ .Page.Title}}</h1>
+    <span><i class="fa fa-tags"></i></span>
+    
       {{ $taxo := "tags" }} <!-- Use the plural form here <span class="icon"><i class="fa fa-clock-o"></i></span> on-->
       {{ range .Param $taxo }}
           {{ $name := . }}
           {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
-              <a href="{{ .Permalink }}">{{ $name }}</a>
+          <a class="tag" href="{{ .Permalink }}">{{ $name }}</a>
           {{ end }}
       {{ end }}
+    
       <h4> {{ .PublishDate.Format "January 2, 2006" }}</h4>
       <span class="has-text-weight-light">{{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }} ; 
       {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</span>
     </div>
   </div>
 </section>
-<section class="section blog">
-       <div class="container">
-         <div class="columns is-mobile">
-           <div class="column">
-             <div class="content blog-post section has-text-justified" itemprop="articleBody">
-               <br />
-         {{ .Content}}
-         </div>
-         </div>
-         </div>
-         </div>
+<section>
+  <div class="container is-fluid column is-8 is-offset-2">
+    <div class="content blog-post section has-text-justified" itemprop="articleBody">
+    {{ .Content}}
+    </div>
+    </div>
 </section>
-</div>
+
 
    <div class="container">
         <div class="tabs">

@@ -1,10 +1,10 @@
-{{ define "header" }} {{ partial "menu" . }} {{ end }}
 {{ define "main" }}
 <script src="https://www.google.com/recaptcha/api.js"></script>
-<section class="hero is-success is-bold">
+<section class="hero is-medium is-dark image-box" style="--image-url: url(/images/contact.jpg">
+  {{ partial "header" . }} 
   <div class="hero-body">
   <div class="container has-text-centered">
-    <br><h1 class="title is-2">{{ .Page.Title}}</h1>
+    <h1>{{ .Page.Title}}</h1>
     </div>
   </div>
 </section>
