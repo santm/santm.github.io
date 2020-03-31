@@ -6,7 +6,7 @@ theme = "santm-bulma_v2"
 other = "{{ .WordCount }} words"
 [params]
   author = "Santanu Misra"
-  description = ""
+  description = "Rumblings on life, travel or anything under sun"
   
     [[params.LeftMenu]]
     medium = "Facebook"
