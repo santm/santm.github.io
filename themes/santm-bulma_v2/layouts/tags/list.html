@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section class="hero is-medium is-dark image-box" style="--image-url: url(/images/tag.jpg">
+  {{ partial "header" . }} 
+  <div class="hero-body">
+  <div class="container has-text-centered">
+    <h1>{{ .Page.Title}}</h1>
+    </div>
+  </div>
+</section>
+<div class="container is-fluid column is-8 is-offset-2">
+  {{ if eq .Kind "taxonomyTerm" }}
+    {{ range $.Site.Taxonomies.tags.ByCount }}
+      <a class="text-body" href="/tags{{ .Name | relURL }}"> {{ .Name | markdownify }}</a> <sup> {{ .Count }}  </sup>
+    {{ end }}
+  {{ else }}
+  <table class="table is-striped is-hoverable">
+    {{- range .Data.Pages.GroupByDate "2006" }}
+  <tr>
+    <th class="has-text-centered" colspan="3">
+      {{ .Key }}
+      </th>
+    </tr>  <!--<div class="is-divider" data-content="{{ .Key }}"></div> -->
+    {{ range .Pages }}
+    <tr>
+      <td class="is-hidden-mobile has-text-right">{{ .Date.Format "Jan 2, 2006"}}</td>
+      <td>
+        <a href="{{.Permalink}}">{{.Title}}</a>
+        </td>
+      </tr>
+    {{ end }}
+    {{ end }}
+</table>
+  {{ end }}
+</div> <!-- container is-fluid column is-8 is-offset-2-->
+
+{{ end }}

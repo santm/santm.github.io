@@ -1,0 +1,53 @@
+{{ define "main" }}
+<section class="hero is-primary is-bold">
+  {{ partial "header" . }} 
+  <div class="hero-body">
+  <div class="container has-text-centered">
+    <h1>{{ .Page.Title}}</h1>
+    <span><i class="fa fa-tags"></i></span>
+    
+      {{ $taxo := "tags" }} <!-- Use the plural form here <span class="icon"><i class="fa fa-clock-o"></i></span> on-->
+      {{ range .Param $taxo }}
+          {{ $name := . }}
+          {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+          <a class="tag" href="{{ .Permalink }}">{{ $name }}</a>
+          {{ end }}
+      {{ end }}
+    
+      <h4> {{ .PublishDate.Format "January 2, 2006" }}</h4>
+      <span class="has-text-weight-light">{{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }} ; 
+      {{ if eq 1 .ReadingTime }}{{ .ReadingTime }} minute read{{ else }}{{ .ReadingTime }} minutes read{{ end }}</span>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container is-fluid column is-8 is-offset-2">
+    <div class="content blog-post section has-text-justified" itemprop="articleBody">
+    {{ .Content}}
+    </div>
+    </div>
+</section>
+
+
+   <div class="container">
+        <div class="tabs">
+          <p class="control">
+            {{if .PrevInSection }}
+            <a class="button is-light" href="{{.PrevPage.Permalink}}" title="{{.PrevPage.Page.Title}}"><span class="icon is-small">
+            <i class="fa fa-angle-double-left"></i></span><span>Previous</span></a>
+            {{end}}
+          </p>
+          <p class="control">
+            {{if .NextInSection }}
+            <a class="button is-light" href="{{.NextPage.Permalink}}" title="{{.NextPage.Page.Title}}"><span>Next</span>
+              <span class="icon is-small"><i class="fa fa-angle-double-right"></i></span></a>
+            {{end}}
+          </p>
+        </div>
+    </div> 
+</main>
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end }}
