@@ -1,5 +1,5 @@
 {{ define "main" }}
-<script src="https://www.google.com/recaptcha/api.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <section class="hero is-medium is-dark image-box" style="--image-url: url(/images/contact.jpg">
   {{ partial "header" . }} 
   <div class="hero-body">
@@ -32,7 +32,8 @@
                             <div class="field">
                                 <label class="label">Message</label>
                                 <div class="control"><textarea class="textarea" placeholder="Please type your message here....."></textarea></div>
-                            </div>       
+                            </div> 
+                            <div class="g-recaptcha" data-sitekey="6LfxaeQUAAAAAKxeMj-J6Gvpzdg5kAJOlsKAvrum"></div>      
                             <div class="field is-grouped">
                                 <div class="control">
                                   <button class="button is-link">Send message&nbsp;&nbsp;&nbsp;<i class="far fa-paper-plane"></i></button>
@@ -41,7 +42,7 @@
                                   <button class="button is-link is-light" input type="button" onclick="myFunction()">Cancel</button>
                                 </div>
                               </div>    
-                              <div class="g-recaptcha" data-sitekey="6Ldi38sSAAAAAOl_oLYP6BNFFlwWqvw_cA8JPS3j"></div>
+                              
                         </form>
                     </div>
                 </div>
