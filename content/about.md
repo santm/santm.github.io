@@ -2,7 +2,6 @@
 title: "About Us"
 date: 2020-02-23T20:17:21+05:30
 layout : "splabout"
-exclude_search: true
 ---
 ## Quick Intro ##
 This is an about page for Misra Family.

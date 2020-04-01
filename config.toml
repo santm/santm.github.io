@@ -19,11 +19,11 @@ other = "{{ .WordCount }} words"
   [[params.RightMenu]]
     medium = "Blog"
     icon = "fas fa-newspaper"
-    link = "/posts"
+    link = "/blog"
   [[params.RightMenu]]
     medium = "Photos"
     icon = "fas fa-camera"
-    link = "https://www.flickr.com/photos/santm/collections"
+    link = "https://www.flickr.com/photos/santm/albums"
   [[params.RightMenu]]
     medium = "About"
     icon = "fas fa-user"
