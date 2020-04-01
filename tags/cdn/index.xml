@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cdn on Aashiyana of Pamela Santanu</title><link>https://santm.com/tags/cdn/</link><description>Recent content in cdn on Aashiyana of Pamela Santanu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 03 Jul 2013 17:32:00 +0530</lastBuildDate><atom:link href="https://santm.com/tags/cdn/index.xml" rel="self" type="application/rss+xml"/><item><title>Google Page Test, CloudFlare and W3 total Cache</title><link>https://santm.com/blog/2013-07-03-google-page-test-cloudflare-and-w3-total-cache/</link><pubDate>Wed, 03 Jul 2013 17:32:00 +0530</pubDate><guid>https://santm.com/blog/2013-07-03-google-page-test-cloudflare-and-w3-total-cache/</guid><description>Installed all these three on pamela.santm.com and blog.santm.com which
+are running on wordpress 3.6 trunk. moved the dns details to cloudflare.
+While Pamela&amp;rsquo;s hobby site did very well Google page test result our blog
+result was not great. Looks like the culprit is inbuilt gallery of
+wordpress which is re-sizing images and seving them on fly causing high
+server time. the command that helped me a lot is &amp;ldquo;mogrify -strip *.</description></item></channel></rss>

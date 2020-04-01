@@ -1,0 +1,135 @@
+<!doctype html><html lang=en-us><head><meta name=generator content="Hugo 0.68.3"><title>PHP iptcembed Gallery3 to Flickr</title><meta charset=utf-8><meta content="width=device-width,initial-scale=1" name=viewport><meta name=author content="Santanu Misra"><meta name=description content><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css><link rel=stylesheet href=/css/bulma-tooltip.css><script src=https://kit.fontawesome.com/d2c89115c5.js crossorigin=anonymous></script><link href="https://fonts.googleapis.com/css?family=Open+Sans" rel=stylesheet><link rel=stylesheet href=/css/custom.css></head><body><section class="hero is-primary image-box"><nav class=navbar role=navigation aria-label="main navigation"><div class=navbar-brand><a class="navbar-item has-text-weight-bold" href=/>SantM</a>
+<a role=button class="navbar-burger burger" aria-label=menu aria-expanded=false data-target=navbarBasicExample><span aria-hidden=true class=has-text-white></span><span aria-hidden=true class=has-text-white></span><span aria-hidden=true class=has-text-white></span></a></div><div id=navbarBasicExample class=navbar-menu><div class=navbar-start><a class=navbar-item href=https://www.facebook.com/santm><i class="fab fa-facebook-square"></i></a><a class=navbar-item href=https://www.instagram.com/s.a.n.t.m/><i class="fab fa-instagram-square"></i></a></div><div class=navbar-end><a class=navbar-item href=/blog><i class="fas fa-newspaper"></i>&nbsp; &nbsp; <span class="is-uppercase has-text-weight-bold">Blog</span></a>
+<a class=navbar-item href=https://www.flickr.com/photos/santm/albums><i class="fas fa-camera"></i>&nbsp; &nbsp; <span class="is-uppercase has-text-weight-bold">Photos</span></a>
+<a class=navbar-item href=/about><i class="fas fa-user"></i>&nbsp; &nbsp; <span class="is-uppercase has-text-weight-bold">About</span></a>
+<a class=navbar-item href=/contact><i class="fas fa-id-card"></i>&nbsp; &nbsp; <span class="is-uppercase has-text-weight-bold">Contact</span></a>
+<a class=navbar-item href=/tags><i class="fas fa-tags"></i>&nbsp; &nbsp; <span class="is-uppercase has-text-weight-bold">Tags</span></a></div><div class=navbar-item><form class=is-marginless action=/search/ method=get><div class="navbar-item field"><p class="control has-icons-right"><input id=header-search name=q class=input type=text placeholder=Search...>
+<span class="icon is-small is-right"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ddd" d="M23.822 20.88l-6.353-6.354c.93-1.465 1.467-3.2 1.467-5.059.001-5.219-4.247-9.467-9.468-9.467s-9.468 4.248-9.468 9.468c0 5.221 4.247 9.469 9.468 9.469 1.768.0 3.421-.487 4.839-1.333L20.703 24l3.119-3.12zm-20.294-11.412c0-3.273 2.665-5.938 5.939-5.938 3.275.0 5.94 2.664 5.94 5.938.0 3.275-2.665 5.939-5.94 5.939-3.274.0-5.939-2.664-5.939-5.939z"/></svg></span></div></p></div></form></div></div></div></nav><div class=hero-body><div class="container has-text-centered"><h1>PHP iptcembed Gallery3 to Flickr</h1><h4 class="title is-4"><span><i class="fas fa-user"></i></span>&nbsp;Santanu Misra / December 18, 2013</h4><span><i class="fa fa-tags"></i></span><a class=tag href=https://santm.com/tags/iptc/>iptc</a>
+<a class=tag href=https://santm.com/tags/hosting/>hosting</a>
+<a class=tag href=https://santm.com/tags/gallery-3/>gallery 3</a>
+<a class=tag href=https://santm.com/tags/php/>PHP</a>
+<a class=tag href=https://santm.com/tags/flickr/>flickr</a><h6 class="title is-6">639 words ;
+3 minutes read</h6></div></div></section><section><div class="container is-fluid column is-8 is-offset-2"><div class="content blog-post section has-text-justified" itemprop=articleBody><p>A journey of sharing photo only got me into having a website of my own.
+When digital camera came out with decent mega pixel was an early adapter
+of the same. But soon realized sharing Pictures on email was not an
+option and  hosted pictures  on Tripod. Oh! they used to give 10MB of
+free hosting :) now Flicker gives one 1TB free. So long  story small
+after the managing own gallyery app writen initally with csv and php ,
+later mysql and php and lastly Gallery for almost 10 years. found
+gallery development is kind of not that active it used to be. So thought
+of moving into Flickr which was big no in-between as they had
+restriction on free accounts. But now those restriction gone managing
+7000+ picture and importing them with proper details remained a BIG
+challenage. At last came up with **iptcembed ** where all the details
+where written into  JPEG file itself and imported those image as set to
+Flickr.And all your details, tag, captions are set properly.</p><p>Here is how I did it</p><ol><li>Copy Gallery&rsquo;s items table to temp table so we do not mess with live
+data</li><li>Add a new column to the temp table</li></ol><blockquote><p><strong>ALTER</strong> <strong>TABLE</strong> `Yours_G3_items-new` <strong>ADD</strong> `album_name` TEXT <strong>NOT</strong> <strong>NULL</strong></p></blockquote><p>3. Find out the parent album id of each items and add that data in the
+new column.</p><blockquote><p><strong>UPDATE</strong> Yours_G3_items-new,Yours_G3_items  <strong>SET</strong> Yours_G3_items-new.album_name = Yours_G3_items.title <strong>WHERE</strong> Yours_G3_items-new.parent_id = Yours_G3_items.id</p></blockquote><p>4. Export the new table with &ldquo;|&rdquo; as separator and "&rdquo; as enclosed.</p><p>Now the PHP script</p><blockquote><p>&lt;?
+//File to be opened
+$file=&rdquo;/tmp/csv.txt&rdquo;;
+$gallery_album_base = &mldr;./gallery3/var/albums&rdquo;;
+$new_gallery_album_base = &lt;new location>/albums&rdquo; ;
+//
+$handle = fopen($file, &lsquo;r&rsquo;) or die (&ldquo;Fail to open input file \n\r&rdquo;)
+;
+$ln= 0 ;
+// Some Functions Start
+function csv_explode($delim='|&rsquo;, $str, $enclose=&rsquo;"',
+$preserve=false){
+$resArr = array();
+$n = 0;
+$expEncArr = explode($enclose, $str);
+foreach($expEncArr as $EncItem){
+if($n++%2){
+array_push($resArr, array_pop($resArr) . ($preserve?$enclose:'') .
+$EncItem.($preserve?$enclose:''));
+}else{
+$expDelArr = explode($delim, $EncItem);
+array_push($resArr, array_pop($resArr) .
+array_shift($expDelArr));
+$resArr = array_merge($resArr, $expDelArr);
+}
+}
+return $resArr;
+}</p><p>// iptc_make_tag() function by Thies C. Arntzen
+function iptc_make_tag($rec, $data, $value)
+{
+$length = strlen($value);
+$retval = chr(0x1C) . chr($rec) . chr($data);
+if($length &lt; 0x8000)
+{
+$retval .= chr($length >> 8) . chr($length & 0xFF);
+}
+else
+{
+$retval .= chr(0x80) .
+chr(0x04) .
+chr(($length >> 24) & 0xFF) .
+chr(($length >> 16) & 0xFF) .
+chr(($length >> 8) & 0xFF) .
+chr($length & 0xFF);
+}
+return $retval . $value;
+}
+// Some Functions End
+while ($line = fgets ($handle)){
+$line = str_ireplace("\x0D&rdquo;, &ldquo;", $line);
+$line = urldecode ($line);
+++$ln;
+print (&ldquo;just line : $ln \n&rdquo;);
+if ($line===FALSE) print (&ldquo;FALSE\n&rdquo;);
+else {
+//print (&ldquo;I am $ln \n&rdquo;);
+//print ($line) ;
+$variables = csv_explode (&ldquo;|&rdquo;, $line);
+//print_r ($variables);
+//26(album or photo) 25(title), 13(image_path),
+4(details),33(album_name/tag)</p><p>if ( $variables[26] == photo ){
+//Path new and old path
+$old_path = $gallery_album_base . &lsquo;/&rsquo; . $variables[13];
+$image_name_new = $new_gallery_album_base . &lsquo;/&rsquo; .
+$variables[13];
+$path_parts = pathinfo ($image_name_new);
+if (!file_exists($path_parts[&lsquo;dirname&rsquo;])) {
+print (&ldquo;makeing directory {$path_parts[&lsquo;dirname&rsquo;]} \n&rdquo;) ;
+mkdir ($path_parts[&lsquo;dirname&rsquo;], 0777,true);
+}</p><p>// Set the IPTC tags
+$iptc = array(
+&lsquo;2#120&rsquo; => &ldquo;$variables[4]",
+&lsquo;2#105&rsquo; => &ldquo;$variables[25]",
+&lsquo;2#005&rsquo; => &ldquo;$variables[25]",
+&lsquo;2#015&rsquo; => &ldquo;$variables[33]",
+&lsquo;2#116&rsquo; => &lsquo;Copyright, www santm com&rsquo;
+);
+// Convert the IPTC tags into binary code
+$data = &lsquo;';
+foreach($iptc as $tag => $string)
+{
+$tag = substr($tag, 2);
+$data .= iptc_make_tag(2, $tag, $string);
+}
+// Embed the IPTC data
+$content = iptcembed($data, $old_path);
+// Write the new image data out to the file.
+$fp = fopen($image_name_new, &ldquo;wb&rdquo;);
+fwrite($fp, $content);
+fclose($fp);
+print (&ldquo;working on $image_name_new \n&rdquo;);
+//$size = getimagesize($image_name_new, $info);
+//if(isset($info[&lsquo;APP13&rsquo;]))
+//{
+// $iptc = iptcparse($info[&lsquo;APP13&rsquo;]);
+// var_dump($iptc);
+//}
+} //end of if photo loop
+} // end of else loop
+} // end of while loop
+# Close the File.
+fclose($handle);
+?></p></blockquote><p>I Wish there was API where I could import the image from my old hosting
+company to Flickr directly instead of uploading them via their PC
+up-loader.</p><p>More here on major phpfunction</p><p><a href=http://www.php.net/function.iptcembed>http://www.php.net/function.iptcembed</a>
+<a href=http://www.php.net/function.pathinfo>http://www.php.net/function.pathinfo</a>
+<a href=http://php.net/manual/fr/function.explode.php>http://php.net/manual/fr/function.explode.php</a></p></div></div></section><div class=container><div class=tabs><p class=control><a class="button is-light" href=https://santm.com/blog/2013-12-14-moving-away-from-self-hosting/ title="PHP iptcembed Gallery3 to Flickr"><span class="icon is-small"><i class="fa fa-angle-double-left"></i></span><span>Previous</span></a></p><p class=control><a class="button is-light" href=https://santm.com/blog/2014-01-17-goa-beach-and-x-mas/ title="Goa  ...  beach and x-mas"><span>Next</span>
+<span class="icon is-small"><i class="fa fa-angle-double-right"></i></span></a></p></div></div></main><footer class=footer><div class="content has-text-centered"><a title="RSS Feed" href=/index.xml><i class="fas fa-rss-square fa-lg"></i></a><span class="icon has-text-link has-tooltip" data-tooltip="Copyright 2020 Santanu Misra"><i class="fas fa-copyright fa-lg"></i></span>All views represented are personal.
+Powered by <span class="icon has-text-danger has-tooltip-danger" data-tooltip="Lots of Love"><i class="fas fa-heart fa-lg"></i></span><a href=https://gohugo.io rel=nofollow>Hugo</a> <span class="icon has-tooltip" data-tooltip="Plenty of Coffee"><i class="fas fa-mug-hot fa-lg" style=color:#6f4e37></i></span></span>. Hosted by <a class=is-inverted href=https://www.github.com><span class=icon><i class="fab fa-github"></i></span>GitHub</a></div></footer><script>(function(){var burger=document.querySelector('.burger');var nav=document.querySelector('#'+burger.dataset.target);burger.addEventListener('click',function(){burger.classList.toggle('is-active');nav.classList.toggle('is-active');});})();</script></body></html>

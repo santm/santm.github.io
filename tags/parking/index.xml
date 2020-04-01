@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>parking on Aashiyana of Pamela Santanu</title><link>https://santm.com/tags/parking/</link><description>Recent content in parking on Aashiyana of Pamela Santanu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 18 Apr 2008 18:52:00 +0530</lastBuildDate><atom:link href="https://santm.com/tags/parking/index.xml" rel="self" type="application/rss+xml"/><item><title>Perfect Parking</title><link>https://santm.com/blog/2008-04-18-perfect-parking/</link><pubDate>Fri, 18 Apr 2008 18:52:00 +0530</pubDate><guid>https://santm.com/blog/2008-04-18-perfect-parking/</guid><description>Encountered this perfect parking on a small by-lane in Bangalore. For
+sure I will not be able to park like this; normally have enough
+difficulties in parallel parking on the street between cars. I was
+failed (fatal) as rear tire touched the ramp in my first attempt to
+secure Californian driving License. Looks like the owner will not be
+change car as this is customized parking only which can accommodate
+small car.</description></item><item><title>Another weekend</title><link>https://santm.com/blog/2007-01-13-another-weekend/</link><pubDate>Sat, 13 Jan 2007 08:25:00 +0530</pubDate><guid>https://santm.com/blog/2007-01-13-another-weekend/</guid><description>Well another day! Some techie note ; upgraded the web site to the latest
+beta release of Wordpress. And I found some strange behaviour. This is
+what I put forward to the mailing list. But with few minute of research
+found the root cause.
+WP is adding [code]
+[/code] as extra inside in my [code]
+[/code]This was one example.[code]
+[/code]
+It was happening due to &amp;ldquo;wp-include/formatting.php&amp;rdquo;. I use plain
+text mode while doing copy-paste between text-editor from my PC to
+Wordpress Editor.</description></item><item><title>Metro in Paris</title><link>https://santm.com/blog/2005-11-29-metro-in-paris/</link><pubDate>Tue, 29 Nov 2005 09:52:00 +0530</pubDate><guid>https://santm.com/blog/2005-11-29-metro-in-paris/</guid><description>Living in Paris and not travelling in Metro has lots of demerits. Like
+usual I am going to start with the traffic jams, one way roads,
+unavailability of parking, high parking tickets and very unusual sense
+of Parisian driving skills.
+These only list if you have a car and travelling of your own. But what
+about those who are taking other mode of smart transports like Bus,
+Tram, Bicycle, Rollerblade or just walk to work or work from home?</description></item></channel></rss>

@@ -1,0 +1,35 @@
+<!doctype html><html lang=en-us><head><meta name=generator content="Hugo 0.68.3"><title>[How To] Puttygen Puttssh for ssh</title><meta charset=utf-8><meta content="width=device-width,initial-scale=1" name=viewport><meta name=author content="Santanu Misra"><meta name=description content><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css><link rel=stylesheet href=/css/bulma-tooltip.css><script src=https://kit.fontawesome.com/d2c89115c5.js crossorigin=anonymous></script><link href="https://fonts.googleapis.com/css?family=Open+Sans" rel=stylesheet><link rel=stylesheet href=/css/custom.css></head><body><section class="hero is-primary image-box"><nav class=navbar role=navigation aria-label="main navigation"><div class=navbar-brand><a class="navbar-item has-text-weight-bold" href=/>SantM</a>
+<a role=button class="navbar-burger burger" aria-label=menu aria-expanded=false data-target=navbarBasicExample><span aria-hidden=true class=has-text-white></span><span aria-hidden=true class=has-text-white></span><span aria-hidden=true class=has-text-white></span></a></div><div id=navbarBasicExample class=navbar-menu><div class=navbar-start><a class=navbar-item href=https://www.facebook.com/santm><i class="fab fa-facebook-square"></i></a><a class=navbar-item href=https://www.instagram.com/s.a.n.t.m/><i class="fab fa-instagram-square"></i></a></div><div class=navbar-end><a class=navbar-item href=/blog><i class="fas fa-newspaper"></i>&nbsp; &nbsp; <span class="is-uppercase has-text-weight-bold">Blog</span></a>
+<a class=navbar-item href=https://www.flickr.com/photos/santm/albums><i class="fas fa-camera"></i>&nbsp; &nbsp; <span class="is-uppercase has-text-weight-bold">Photos</span></a>
+<a class=navbar-item href=/about><i class="fas fa-user"></i>&nbsp; &nbsp; <span class="is-uppercase has-text-weight-bold">About</span></a>
+<a class=navbar-item href=/contact><i class="fas fa-id-card"></i>&nbsp; &nbsp; <span class="is-uppercase has-text-weight-bold">Contact</span></a>
+<a class=navbar-item href=/tags><i class="fas fa-tags"></i>&nbsp; &nbsp; <span class="is-uppercase has-text-weight-bold">Tags</span></a></div><div class=navbar-item><form class=is-marginless action=/search/ method=get><div class="navbar-item field"><p class="control has-icons-right"><input id=header-search name=q class=input type=text placeholder=Search...>
+<span class="icon is-small is-right"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ddd" d="M23.822 20.88l-6.353-6.354c.93-1.465 1.467-3.2 1.467-5.059.001-5.219-4.247-9.467-9.468-9.467s-9.468 4.248-9.468 9.468c0 5.221 4.247 9.469 9.468 9.469 1.768.0 3.421-.487 4.839-1.333L20.703 24l3.119-3.12zm-20.294-11.412c0-3.273 2.665-5.938 5.939-5.938 3.275.0 5.94 2.664 5.94 5.938.0 3.275-2.665 5.939-5.94 5.939-3.274.0-5.939-2.664-5.939-5.939z"/></svg></span></div></p></div></form></div></div></div></nav><div class=hero-body><div class="container has-text-centered"><h1>[How To] Puttygen Puttssh for ssh</h1><h4 class="title is-4"><span><i class="fas fa-user"></i></span>&nbsp;Santanu Misra / August 5, 2005</h4><span><i class="fa fa-tags"></i></span><a class=tag href=https://santm.com/tags/tech-notes/>Tech Notes</a><h6 class="title is-6">248 words ;
+2 minutes read</h6></div></div></section><section><div class="container is-fluid column is-8 is-offset-2"><div class="content blog-post section has-text-justified" itemprop=articleBody><p>1. Run PuttyKeyGen
+1.a Make sure you choose SSH2DSA at the bottom
+1.b Click on Generate
+1.c Move Mouse as mentioned.</p><ol start=2><li><p>Once the key is generated
+2.a Put proper comment for Key username and hostname
+2.b Type your Password please try to choose a proper password i.e. with
+number, special character, upper case hard to guess
+2.c Save the public and private key I saved in
+<strong>C:\Documents and Settings\santanu.misra</strong></p></li><li><p>Now add pageant.exe to your startup programs as shortcut.</p></li><li><p>In the property box modify these
+4.a In “Target” Box add the Private-key file name
+4.b In “Start in’’ Box put the directory where you stored the public key
+; look at step 2.c
+4.c Make “Run” to minimized</p></li><li><p>Right click on pageant and you will see there is an option for adding
+the key.
+5.a Choose your private key file that was generated with “PuttyKeyGen”
+and it will ask for the “Passphrase” enter the password you entered in
+step 2.b
+5.b You can see your key with “view key” option. There is a option to
+delete your key as well.</p></li><li><p>Now we need to configure putty to work with our public and private
+key. The screen shoots are quite self explanatory.</p></li></ol><p>How ever I did modified <strong>“ScrollbackLines”</strong> for putty with <strong>regedit</strong>
+as I like to have more scroll back line; default is only 200. The ket is
+located in
+<strong>MyComputer\HKEY_CURRENT_USER\Software\SimonTatham\PuttY\Sessions\Default%20Settings</strong>
+For quick access to known servers you can do this to automate login via
+(ssh)
+<strong>ssh-add -L >> .ssh/authorized_keys</strong></p></div></div></section><div class=container><div class=tabs><p class=control><a class="button is-light" href=https://santm.com/blog/2005-06-02-back-to-work/ title="[How To] Puttygen Puttssh for ssh"><span class="icon is-small"><i class="fa fa-angle-double-left"></i></span><span>Previous</span></a></p><p class=control><a class="button is-light" href=https://santm.com/blog/2005-08-11-ssh-and-scp/ title="ssh and scp"><span>Next</span>
+<span class="icon is-small"><i class="fa fa-angle-double-right"></i></span></a></p></div></div></main><footer class=footer><div class="content has-text-centered"><a title="RSS Feed" href=/index.xml><i class="fas fa-rss-square fa-lg"></i></a><span class="icon has-text-link has-tooltip" data-tooltip="Copyright 2020 Santanu Misra"><i class="fas fa-copyright fa-lg"></i></span>All views represented are personal.
+Powered by <span class="icon has-text-danger has-tooltip-danger" data-tooltip="Lots of Love"><i class="fas fa-heart fa-lg"></i></span><a href=https://gohugo.io rel=nofollow>Hugo</a> <span class="icon has-tooltip" data-tooltip="Plenty of Coffee"><i class="fas fa-mug-hot fa-lg" style=color:#6f4e37></i></span></span>. Hosted by <a class=is-inverted href=https://www.github.com><span class=icon><i class="fab fa-github"></i></span>GitHub</a></div></footer><script>(function(){var burger=document.querySelector('.burger');var nav=document.querySelector('#'+burger.dataset.target);burger.addEventListener('click',function(){burger.classList.toggle('is-active');nav.classList.toggle('is-active');});})();</script></body></html>

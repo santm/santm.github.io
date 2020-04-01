@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wordpress on Aashiyana of Pamela Santanu</title><link>https://santm.com/tags/wordpress/</link><description>Recent content in wordpress on Aashiyana of Pamela Santanu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 14 Dec 2013 08:55:00 +0530</lastBuildDate><atom:link href="https://santm.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml"/><item><title>Moving away from self hosting</title><link>https://santm.com/blog/2013-12-14-moving-away-from-self-hosting/</link><pubDate>Sat, 14 Dec 2013 08:55:00 +0530</pubDate><guid>https://santm.com/blog/2013-12-14-moving-away-from-self-hosting/</guid><description>Well after all these years of self hosting and WordPress I am kind of
+let go the Self-hosting. Moved
+pamela.santm.com to Tumblr and all the
+pictures from Gallery3 to
+Flickr. Still need to move www.santm.com somewhere and aarush.santm,com pictures
+to somewhere, most likely it will be Flickr again. hope to complete the
+all these before 2013 finishes.</description></item><item><title>Google Page Test, CloudFlare and W3 total Cache</title><link>https://santm.com/blog/2013-07-03-google-page-test-cloudflare-and-w3-total-cache/</link><pubDate>Wed, 03 Jul 2013 17:32:00 +0530</pubDate><guid>https://santm.com/blog/2013-07-03-google-page-test-cloudflare-and-w3-total-cache/</guid><description>Installed all these three on pamela.santm.com and blog.santm.com which
+are running on wordpress 3.6 trunk. moved the dns details to cloudflare.
+While Pamela&amp;rsquo;s hobby site did very well Google page test result our blog
+result was not great. Looks like the culprit is inbuilt gallery of
+wordpress which is re-sizing images and seving them on fly causing high
+server time. the command that helped me a lot is &amp;ldquo;mogrify -strip *.</description></item><item><title>Wordpress 2.6</title><link>https://santm.com/blog/2008-07-15-wordpress-2-6/</link><pubDate>Tue, 15 Jul 2008 20:19:00 +0530</pubDate><guid>https://santm.com/blog/2008-07-15-wordpress-2-6/</guid><description>Just upgraded to Wordpress
+2.6 for
+both blog.santm.com and
+pamela.santm.com without any hitch :)
+Upgraded few plugins as well and so far so good.</description></item><item><title>Free Theme</title><link>https://santm.com/blog/2008-02-13-free-theme/</link><pubDate>Wed, 13 Feb 2008 15:32:00 +0530</pubDate><guid>https://santm.com/blog/2008-02-13-free-theme/</guid><description>I just found out d-atmosphere.com is holding a competition where they
+are offering a free wordpress theme called WP
+Remix. It’s a very nice theme with loads
+of features.
+The rule is simple - just write about the competition in your blog and
+post your link back in the comments on the contest page.
+The winner will be announced on March 1st.</description></item><item><title>Skittlish Theme with Silk Icons for Wordpress</title><link>https://santm.com/blog/2007-05-25-skittlish-theme-with-silk-icons-for-wordpress/</link><pubDate>Fri, 25 May 2007 21:15:00 +0530</pubDate><guid>https://santm.com/blog/2007-05-25-skittlish-theme-with-silk-icons-for-wordpress/</guid><description>Trying to jazz up skittlish theme of
+wordpress
+with silk icon sets from
+famfamfam.com.
+In recent time there is new version of skittlish supporting widgets so I
+thought it might be a god starting ground. Best part - for few colors
+(red, orange, green &amp;amp; blue) there are icons available for tag, user
+(author). But for rest there is none. As I am not a graphic person not
+sure how should I go forward.</description></item><item><title>Wordpress Bleeding 2.2 and TAG</title><link>https://santm.com/blog/2007-04-10-wordpress-bleeding-2-2-and-tag/</link><pubDate>Tue, 10 Apr 2007 15:19:00 +0530</pubDate><guid>https://santm.com/blog/2007-04-10-wordpress-bleeding-2-2-and-tag/</guid><description>Just upgraded to the latest beta trunk of wordpress 2.2(bleeding) and
+found myself with unrecoverable errors. Realized wordpress incorporated
+tagging within the core but the old faithful Ultimate Tag Warrior does
+not work any more :( Found another bug-hunt has started and hope for tag import from (UTW)
+till then …… have to live with out tags Sigh!</description></item><item><title>Mera Bharat Jawaan</title><link>https://santm.com/blog/2007-04-04-mera-bharat-jawaan/</link><pubDate>Wed, 04 Apr 2007 22:07:00 +0530</pubDate><guid>https://santm.com/blog/2007-04-04-mera-bharat-jawaan/</guid><description>Another funny advertisement which caught my attention Budda Hoga Tera
+Baap. This is a soft or hard slang depending on your view - &amp;ldquo;May be
+your father is old&amp;rdquo; This new TV series name is &amp;ldquo;Mera Bharat
+Jaawan&amp;rdquo; which translates into &amp;ldquo;My India is Young&amp;rdquo;. With one fourth
+population under the age of 25 India definitely has young demography.
+P.S - In last two months, I have changed theme for wordpress (blog) at
+least four times.</description></item><item><title>Another weekend</title><link>https://santm.com/blog/2007-01-13-another-weekend/</link><pubDate>Sat, 13 Jan 2007 08:25:00 +0530</pubDate><guid>https://santm.com/blog/2007-01-13-another-weekend/</guid><description>Well another day! Some techie note ; upgraded the web site to the latest
+beta release of Wordpress. And I found some strange behaviour. This is
+what I put forward to the mailing list. But with few minute of research
+found the root cause.
+WP is adding [code]
+[/code] as extra inside in my [code]
+[/code]This was one example.[code]
+[/code]
+It was happening due to &amp;ldquo;wp-include/formatting.php&amp;rdquo;. I use plain
+text mode while doing copy-paste between text-editor from my PC to
+Wordpress Editor.</description></item><item><title>New look to web site</title><link>https://santm.com/blog/2005-09-16-new-look-to-web-site/</link><pubDate>Fri, 16 Sep 2005 03:49:00 +0530</pubDate><guid>https://santm.com/blog/2005-09-16-new-look-to-web-site/</guid><description>Migrated to Wordpress along with
+Gallery2, the choice for the same was not
+easy. As for a long time Mambo and custom
+home grown Photo Album was doing the job fine. In fact the template I
+used for the same was appreciated by friends. But as days passed and
+numbers of pictures are growing it was getting difficult to manage the
+same with custom gallery. But the idea to grab Wordpress and dropping
+Mambo is a personal one.</description></item></channel></rss>
