@@ -1,39 +1,25 @@
 .has-bg-about { background: url('/images/about.jpg') center center; background-size:cover;}
 @media (max-width: 768px) {.has-bg-about { background:url('/images/about-vertical.jpg') center center; background-size:cover; height: 315px; } .hero {padding: 0px; margin:0px}}
+
 .image-box {
-    /* Here's the trick thanks to https://dev.to/selbekk/how-to-overlay-your-background-images-59le*/
-    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
-  
-    /* Basic background styles */
-    background: var(--image-url) center center;
-    background-size: cover;
-  
-    /* Here's the same styles we applied to our content-div earlier */
-    color: white;
-    /*min-height: 100vh; */
-    display: flex;
-   
-    align-items: initial;
-    justify-content: center;
-    /* align-items: center;
-    justify-content: center; 
-     justify-content:inherit;*/
-    
-    /* Add a transition, just for fun */
-    transition: box-shadow .3s ease-out;
-  }
+    /* Here's the trick thanks to https://dev.to/selbekk/how-to-overlay-your-background-images-59le */
+  /* Here's the trick */
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , var(--image-url) center center;
+  background-size: cover;
+  /* Here's the same styles we applied to our content-div earlier */
+  color: white;
+  /* min-height: 50vh; santm */
+  display: flex;
+  align-items: initial; /*santm */
+  justify-content: inherit; /* santm */
+      }
   .image-box:hover {
-      box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+      box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.2);
   }
   .navbar-burger-color{
     color: #000000;
 }
-.hero.is-primary.is-bold {
-  background-image: linear-gradient(141deg, #0b8286 0%, #188eac 71%, #1686c8 100%);
-}
-.hero.is-primary {
-  background-color: #188eac;
-}
+
 h1 {
   font-size: 40px;
   margin-top: 0;
@@ -48,3 +34,13 @@ h1 {
       font-weight: 800;
   }
   }
+  @media only screen and (max-width: 767px) { h1 {
+    font-size: 50px;
+    margin-top: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}}
+@media (max-width: 512px) { .image-box {
+  /*display: none; */
+  background-image: none;
+}}
