@@ -23,14 +23,14 @@
 h1 {
   font-size: 40px;
   margin-top: 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Abril Fatface','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 @media only screen and (min-width: 768px) {
   h1 {
       font-size: 80px;
       margin-top: 0;
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'Abril Fatface','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       font-weight: 800;
   }
   }
