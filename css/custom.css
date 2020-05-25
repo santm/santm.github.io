@@ -8,39 +8,87 @@
   background-size: cover;
   /* Here's the same styles we applied to our content-div earlier */
   color: white;
-  /* min-height: 50vh; santm */
+  /* min-height: 50vh; santm we disabled this*/
   display: flex;
-  align-items: initial; /*santm */
-  justify-content: inherit; /* santm */
-      }
-  .image-box:hover {
+  align-items: initial; /*santm original was center*/
+  justify-content: inherit; /* santm original was center*/
+}
+.image-box:hover {
       box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.2);
-  }
-  .navbar-burger-color{
+}
+.navbar-burger-color{
     color: #000000;
 }
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: "Libre Baskerville", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", serif;
+  font-weight: 700;
+  line-height: 1.2; }
 
-h1 {
-  font-size: 40px;
-  margin-top: 0;
-  font-family: 'Abril Fatface','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+h1, .h1 {
+  font-size: 3.5rem; }
+  @media (max-width: 1200px) {
+    h1, .h1 {
+      font-size: calc(1.375rem + 1.5vw) ; } }
+
+h2, .h2 {
+  font-size: 2rem; }
+  @media (max-width: 1200px) {
+    h2, .h2 {
+      font-size: calc(1.325rem + 0.9vw) ; } }
+
+h3, .h3 {
+  font-size: 1.75rem; }
+  @media (max-width: 1200px) {
+    h3, .h3 {
+      font-size: calc(1.3rem + 0.6vw) ; } }
+
+h4, .h4 {
+  font-size: 1.5rem; }
+  @media (max-width: 1200px) {
+    h4, .h4 {
+      font-size: calc(1.275rem + 0.3vw) ; } }
+
+h5, .h5 {
+  font-size: 1.25rem; }
+
+h6, .h6 {
+  font-size: 1rem; }
+
+
+.icon {
+  color:hsl(0, 0%, 71%);
+  /*padding: 10px ;  color:hsl(0, 0%, 71%); */
+  margin-left: 15px;
 }
-@media only screen and (min-width: 768px) {
-  h1 {
-      font-size: 80px;
-      margin-top: 0;
-      font-family: 'Abril Fatface','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      font-weight: 800;
-  }
-  }
-  @media only screen and (max-width: 767px) { h1 {
-    font-size: 50px;
+#icon-facebook:hover {
+              color: rgba(61,90,152, 0.8); }
+#icon-instagram:hover {
+              color: rgba(228,64,95,1); }
+#icon-linkedin:hover {
+              color: rgba(0,119,181,1); }
+#icon-envelope:hover {
+              color: rgba(221,75,57,1); }
+#icon-rss:hover {
+              color: rgba(255,130,40,1);
+}
+#icon-copy:hover {
+              color: rgba(235, 231, 12,1);
+}
+#icon-tumblr:hover {
+  color: rgba(52,70,93,1);
+}
+.footer{
+  /*background-color:#344157; color:#fff !important*/
+  border-top:1px solid hsl(0, 0%, 71%);
+}
+/*.tile.is-parent {
+     padding: 0;
+}
+.title:not(.is-spaced)+.subtitle {
     margin-top: 0;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 800;
-}}
-/* hide background on small screen -santm 
-@media (max-width: 512px) { .image-box {
-    background-image: none;
-}} */
+}
+.tile.is-vertical>.tile.is-child:not(:last-child) {
+    margin-bottom: 0!important;
+} */
