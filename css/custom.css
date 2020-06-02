@@ -83,12 +83,106 @@ h6, .h6 {
   /*background-color:#344157; color:#fff !important*/
   border-top:1px solid hsl(0, 0%, 71%);
 }
-/*.tile.is-parent {
-     padding: 0;
+/*santm for the mouse scroll on home page */
+.demo a {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #000;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
 }
-.title:not(.is-spaced)+.subtitle {
-    margin-top: 0;
+.demo a:hover {
+  opacity: .5;
 }
-.tile.is-vertical>.tile.is-child:not(:last-child) {
-    margin-bottom: 0!important;
-} */
+
+
+#section10 a {
+  padding-top: 60px;
+}
+#section10 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#section10 a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#section10 a span::after {
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  content: '';
+  margin-left: -9px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+/*santm for the mouse scroll on home page */
+/*santm for the instagram picture text */
+/*With Simple Caption*/
+
+/*santm for the instagram picture text */
+/* The overlay effect - lays on top of the container and over the image
+https://github.com/hasinhayder/ImageCaptionHoverAnimation/blob/master/index4.html
+We work on this later
+*/
