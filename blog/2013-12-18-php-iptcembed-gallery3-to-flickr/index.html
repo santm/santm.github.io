@@ -3,11 +3,11 @@
 <a class=navbar-item href=/about><i class="fa fa-user fa-2x"></i>&nbsp; <span class="is-uppercase has-text-weight-bold">About</span></a>
 <a class=navbar-item href=/contact><i class="fa fa-id-card fa-2x"></i>&nbsp; <span class="is-uppercase has-text-weight-bold">Contact</span></a>
 <a class=navbar-item href=/tags><i class="fa fa-tags fa-2x"></i>&nbsp; <span class="is-uppercase has-text-weight-bold">Tags</span></a></div><div class=navbar-item><form class=is-marginless action=/search/ method=get><div class="navbar-item field"><p class="control has-icons-right"><input id=header-search name=q class=input type=text placeholder=Search...>
-<span class="icon is-small is-right"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ddd" d="M23.822 20.88l-6.353-6.354c.93-1.465 1.467-3.2 1.467-5.059.001-5.219-4.247-9.467-9.468-9.467s-9.468 4.248-9.468 9.468c0 5.221 4.247 9.469 9.468 9.469 1.768.0 3.421-.487 4.839-1.333L20.703 24l3.119-3.12zm-20.294-11.412c0-3.273 2.665-5.938 5.939-5.938 3.275.0 5.94 2.664 5.94 5.938.0 3.275-2.665 5.939-5.94 5.939-3.274.0-5.939-2.664-5.939-5.939z"/></svg></span></div></p></div></form></div></div></div></nav><div class=hero-body><div class="container has-text-centered"><h1>PHP iptcembed Gallery3 to Flickr</h1><span><i class="fa fa-tags"></i></span><a href=https://santm.com/tags/flickr/ class=tag>flickr</a>
-<a href=https://santm.com/tags/gallery-3/ class=tag>gallery 3</a>
+<span class="icon is-small is-right"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#ddd" d="M23.822 20.88l-6.353-6.354c.93-1.465 1.467-3.2 1.467-5.059.001-5.219-4.247-9.467-9.468-9.467s-9.468 4.248-9.468 9.468c0 5.221 4.247 9.469 9.468 9.469 1.768.0 3.421-.487 4.839-1.333L20.703 24l3.119-3.12zm-20.294-11.412c0-3.273 2.665-5.938 5.939-5.938 3.275.0 5.94 2.664 5.94 5.938.0 3.275-2.665 5.939-5.94 5.939-3.274.0-5.939-2.664-5.939-5.939z"/></svg></span></div></p></div></form></div></div></div></nav><div class=hero-body><div class="container has-text-centered"><h1>PHP iptcembed Gallery3 to Flickr</h1><span><i class="fa fa-tags"></i></span><a href=https://santm.com/tags/iptc/ class=tag>iptc</a>
 <a href=https://santm.com/tags/hosting/ class=tag>hosting</a>
-<a href=https://santm.com/tags/iptc/ class=tag>iptc</a>
+<a href=https://santm.com/tags/gallery-3/ class=tag>gallery 3</a>
 <a href=https://santm.com/tags/php/ class=tag>PHP</a>
+<a href=https://santm.com/tags/flickr/ class=tag>flickr</a>
 <span class="breadcrumb is-medium is-centered" aria-label=breadcrumbs><ul><span><i class="fa fa-link" aria-hidden=true></i></span></ul></span><span class="title is-6"><i class="fa fa-user"></i>&nbsp;Santanu Misra / December 18, 2013</span><br><span class="title is-6">639 words ;
 3 minutes read<span></div></div></section><section><div class="container is-fluid column is-8 is-offset-2"><div class="content blog-post section has-text-justified" itemprop=articleBody><p>A journey of sharing photo only got me into having a website of my own.
 When digital camera came out with decent mega pixel was an early adapter
@@ -24,17 +24,17 @@ challenage. At last came up with **iptcembed ** where all the details
 where written into  JPEG file itself and imported those image as set to
 Flickr.And all your details, tag, captions are set properly.</p><p>Here is how I did it</p><ol><li>Copy Gallery&rsquo;s items table to temp table so we do not mess with live
 data</li><li>Add a new column to the temp table</li></ol><blockquote><p><strong>ALTER</strong> <strong>TABLE</strong> `Yours_G3_items-new` <strong>ADD</strong> `album_name` TEXT <strong>NOT</strong> <strong>NULL</strong></p></blockquote><p>3. Find out the parent album id of each items and add that data in the
-new column.</p><blockquote><p><strong>UPDATE</strong> Yours_G3_items-new,Yours_G3_items  <strong>SET</strong> Yours_G3_items-new.album_name = Yours_G3_items.title <strong>WHERE</strong> Yours_G3_items-new.parent_id = Yours_G3_items.id</p></blockquote><p>4. Export the new table with &ldquo;|&rdquo; as separator and "&rdquo; as enclosed.</p><p>Now the PHP script</p><blockquote><p>&lt;?
+new column.</p><blockquote><p><strong>UPDATE</strong> Yours_G3_items-new,Yours_G3_items  <strong>SET</strong> Yours_G3_items-new.album_name = Yours_G3_items.title <strong>WHERE</strong> Yours_G3_items-new.parent_id = Yours_G3_items.id</p></blockquote><p>4. Export the new table with &ldquo;|&rdquo; as separator and "" as enclosed.</p><p>Now the PHP script</p><blockquote><p>&lt;?
 //File to be opened
-$file=&rdquo;/tmp/csv.txt&rdquo;;
-$gallery_album_base = &mldr;./gallery3/var/albums&rdquo;;
-$new_gallery_album_base = &lt;new location>/albums&rdquo; ;
+$file="/tmp/csv.txt";
+$gallery_album_base = &mldr;./gallery3/var/albums";
+$new_gallery_album_base = &lt;new location>/albums" ;
 //
 $handle = fopen($file, &lsquo;r&rsquo;) or die (&ldquo;Fail to open input file \n\r&rdquo;)
 ;
 $ln= 0 ;
 // Some Functions Start
-function csv_explode($delim='|&rsquo;, $str, $enclose=&rsquo;"',
+function csv_explode($delim='|', $str, $enclose='"',
 $preserve=false){
 $resArr = array();
 $n = 0;
@@ -73,7 +73,7 @@ return $retval . $value;
 }
 // Some Functions End
 while ($line = fgets ($handle)){
-$line = str_ireplace("\x0D&rdquo;, &ldquo;", $line);
+$line = str_ireplace("\x0D", &ldquo;&rdquo;, $line);
 $line = urldecode ($line);
 ++$ln;
 print (&ldquo;just line : $ln \n&rdquo;);
@@ -81,7 +81,7 @@ if ($line===FALSE) print (&ldquo;FALSE\n&rdquo;);
 else {
 //print (&ldquo;I am $ln \n&rdquo;);
 //print ($line) ;
-$variables = csv_explode (&ldquo;|&rdquo;, $line);
+$variables = csv_explode ("|", $line);
 //print_r ($variables);
 //26(album or photo) 25(title), 13(image_path),
 4(details),33(album_name/tag)</p><p>if ( $variables[26] == photo ){
@@ -95,10 +95,10 @@ print (&ldquo;makeing directory {$path_parts[&lsquo;dirname&rsquo;]} \n&rdquo;) 
 mkdir ($path_parts[&lsquo;dirname&rsquo;], 0777,true);
 }</p><p>// Set the IPTC tags
 $iptc = array(
-&lsquo;2#120&rsquo; => &ldquo;$variables[4]",
-&lsquo;2#105&rsquo; => &ldquo;$variables[25]",
-&lsquo;2#005&rsquo; => &ldquo;$variables[25]",
-&lsquo;2#015&rsquo; => &ldquo;$variables[33]",
+&lsquo;2#120&rsquo; => &ldquo;$variables[4]&rdquo;,
+&lsquo;2#105&rsquo; => &ldquo;$variables[25]&rdquo;,
+&lsquo;2#005&rsquo; => &ldquo;$variables[25]&rdquo;,
+&lsquo;2#015&rsquo; => &ldquo;$variables[33]&rdquo;,
 &lsquo;2#116&rsquo; => &lsquo;Copyright, www santm com&rsquo;
 );
 // Convert the IPTC tags into binary code

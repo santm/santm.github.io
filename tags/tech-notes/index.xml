@@ -11,7 +11,7 @@ While Pamela&amp;rsquo;s hobby site did very well Google page test result our bl
 result was not great. Looks like the culprit is inbuilt gallery of
 wordpress which is re-sizing images and seving them on fly causing high
 server time. the command that helped me a lot is &amp;ldquo;mogrify -strip *.</description></item><item><title>Page Speed - Web site broken</title><link>https://santm.com/blog/2011-07-01-page-speed-web-site-broken/</link><pubDate>Fri, 01 Jul 2011 18:22:00 +0530</pubDate><guid>https://santm.com/blog/2011-07-01-page-speed-web-site-broken/</guid><description>Playing with Google lab and its &amp;ldquo;Page
-speed&amp;quot;. Hope things gets fixed soon.</description></item><item><title>McAfee antivirus program freezes PCs</title><link>https://santm.com/blog/2010-04-23-mcafee-antivirus-program-freezes-pcs/</link><pubDate>Fri, 23 Apr 2010 17:34:00 +0530</pubDate><guid>https://santm.com/blog/2010-04-23-mcafee-antivirus-program-freezes-pcs/</guid><description>After starting my office laptop it goes for freeze within 5 minutes. I
+speed&amp;rdquo;. Hope things gets fixed soon.</description></item><item><title>McAfee antivirus program freezes PCs</title><link>https://santm.com/blog/2010-04-23-mcafee-antivirus-program-freezes-pcs/</link><pubDate>Fri, 23 Apr 2010 17:34:00 +0530</pubDate><guid>https://santm.com/blog/2010-04-23-mcafee-antivirus-program-freezes-pcs/</guid><description>After starting my office laptop it goes for freeze within 5 minutes. I
 was very worried what went wrong; my current laptop is cranky and that
 is why ordered a new one which was delivered yesterday. The new laptop
 is getting build by the IT Team as I write this post. But i was worried
@@ -118,7 +118,7 @@ and make an array with the same */ $chars = preg_split('//', $str,
 -1, PREG_SPLIT_NO_EMPTY);// print_r($chars);$inc = 0
 ;for($i=0;$isetFont($myFont); $myText-&amp;gt;setColor(255,255,255);
 $myText-&amp;gt;SetHeight(30); $myText-&amp;gt;addString($chars[$i]); echo
-(&amp;ldquo;$chars[$i] \n&amp;rdquo;) ; $firstText=$movie-&amp;gt;add($myText);
+(&amp;quot;$chars[$i] \n&amp;quot;) ; $firstText=$movie-&amp;gt;add($myText);
 $firstText-&amp;gt;moveTo($inc,30); $inc = $inc + 18; // SM - this is very
 critical as you need to add this extra frame to make this effect of
 some typewriter $movie-&amp;gt;nextframe(); // SM - This helps to
