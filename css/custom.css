@@ -15,47 +15,10 @@
 }
 .image-box:hover {
       box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.2);
-
+}
 .navbar-burger-color{
     color: #000000;
 }
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
-  font-family: "Libre Baskerville", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", serif;
-  font-weight: 700;
-  line-height: 1.2; }
-
-h1, .h1 {
-  font-size: 3.5rem; }
-  @media (max-width: 1200px) {
-    h1, .h1 {
-      font-size: calc(1.375rem + 1.5vw) ; } }
-
-h2, .h2 {
-  font-size: 2rem; }
-  @media (max-width: 1200px) {
-    h2, .h2 {
-      font-size: calc(1.325rem + 0.9vw) ; } }
-
-h3, .h3 {
-  font-size: 1.75rem; }
-  @media (max-width: 1200px) {
-    h3, .h3 {
-      font-size: calc(1.3rem + 0.6vw) ; } }
-
-h4, .h4 {
-  font-size: 1.5rem; }
-  @media (max-width: 1200px) {
-    h4, .h4 {
-      font-size: calc(1.275rem + 0.3vw) ; } }
-
-h5, .h5 {
-  font-size: 1.25rem; }
-
-h6, .h6 {
-  font-size: 1rem; }
-
 
 .icon {
   color:hsl(0, 0%, 71%);
