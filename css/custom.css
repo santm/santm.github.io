@@ -4,7 +4,7 @@
 .image-box {
     /* Here's the trick thanks to https://dev.to/selbekk/how-to-overlay-your-background-images-59le */
   /* Here's the trick */
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , var(--image-url) center center;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , var(--image-url) center center;
   background-size: cover;
   /* Here's the same styles we applied to our content-div earlier */
   color: white;
@@ -14,7 +14,7 @@
   justify-content: inherit; /* santm original was center*/
 }
 .image-box:hover {
-      box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.2);
+      box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.1);
 }
 .navbar-burger-color{
     color: #000000;
@@ -34,14 +34,11 @@
 #icon-envelope:hover {
               color: rgba(221,75,57,1); }
 #icon-rss:hover {
-              color: rgba(255,130,40,1);
-}
+              color: rgba(255,130,40,1);}
 #icon-copy:hover {
-              color: rgba(235, 231, 12,1);
-}
+              color: rgba(235, 231, 12,1);}
 #icon-tumblr:hover {
-  color: rgba(52,70,93,1);
-}
+              color: rgba(52,70,93,1);}
 .footer{
   /*background-color:#344157; color:#fff !important*/
   border-top:1px solid hsl(0, 0%, 71%);
