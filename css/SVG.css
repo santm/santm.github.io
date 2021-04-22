@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.ir {
+  display: block;
+  overflow: visible;
+  padding: 0 0 100%;
+  position: relative;
+  height: 0;
+  width: 100%;
+}
+
+.ir > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+  width: 110rem;
+  max-width: 100%;
+  font-size: 0.6rem;
+}
+.soc li {
+  display: inline-block;
+  margin: 1.2rem;
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  height: 2rem;
+  width: 2rem;
+}
+
+.tumblr:hover, .rss:hover, .flickr:hover, .facebook:hover, .linkedin:hover, .github:hover, .instagram:hover {
+  border-radius: 100%;
+  fill: #e8edf1;
+  transform: scale(1.25);
+  transition: background-color 0.5s, transform 0.5s ease-out;
+}
+.tumblr {
+  fill: #34526f;
+}
+.tumblr:hover {
+  background: #34526f;
+}
+.rss {
+  fill: #ee802f;
+}
+.rss:hover {
+  background: #ee802f;
+}
+.flickr {
+  fill: #ff0084;
+}
+.flickr:hover {
+  background: #ff0084;
+}
+.facebook{
+  fill: #3b5998;
+}
+.facebook:hover {
+  background: #3b5998;
+}
+.github {
+  fill: #000000;
+}
+.github:hover {
+  background: #01080f;
+}
+.instagram {
+  fill: #D93175;
+}
+.instagram:hover {
+  background: #D93175;
+}
+.linkedin {
+  fill:  #0e76a8;
+}
+.linkedin:hover {
+  background:  #0e76a8;
+}
+/*# sourceMappingURL=SVG.css.map */
