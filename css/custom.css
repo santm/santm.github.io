@@ -158,3 +158,19 @@ We work on this later
 	border: 3px solid #eee;
 	padding: 10px;
 }
+/* for section background on index page */
+element.style {
+  --bd-section-h: 229deg;
+}
+:root{--bd-index-vertical:1.5rem;--bd-index-gap:3rem}
+.bd-index-section{--bd-section-vertical:1.5rem;--bd-section-horizontal:1.5rem;--bd-section-h:171deg;background-image:linear-gradient(180deg,hsla(var(--bd-section-h),100%,67%,.1),transparent var(--bd-index-vertical));background-repeat:repeat-x}
+.bd-index-section .bd-tw{margin-left:auto;margin-right:auto;max-width:28em}.bd-index-content{font-size:1rem}.bd-index-content strong{font-weight:600}.bd-index-content .title{color:#363636;font-size:2em;font-weight:400;position:relative}
+.bd-index-content .title .icon{height:1.125em;position:absolute;right:calc(100% + 1.5rem);top:0;width:1.125em}.bd-index-content .title a{font-weight:600}.bd-index-content .subtitle strong{color:inherit}
+.bd-index-content .icon-text strong{color:inherit}
+.bd-index-content .highlight{margin-bottom:1em}
+@media screen and (max-width:768px){.bd-index-section{padding:3rem 1.5rem}.bd-index-section .bd-tws{padding-left:0;padding-right:0}}@media screen and (min-width:769px),print{:root{--bd-index-vertical:3rem}
+.bd-index-section{padding-bottom:var(--bd-index-vertical);padding-top:var(--bd-index-vertical)}}
+@media screen and (min-width:1024px){.bd-index-content{font-size:1.125rem}}
+@media screen and (min-width:1216px){:root{--bd-index-vertical:6rem}.bd-index-content{font-size:1.25rem;max-width:23em}}
+@media screen and (min-width:1408px){:root{--bd-index-vertical:9rem}
+/* for section background on index page */
