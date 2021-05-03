@@ -163,7 +163,14 @@ element.style {
   --bd-section-h: 229deg;
 }
 :root{--bd-index-vertical:1.5rem;--bd-index-gap:3rem}
-.bd-index-section{--bd-section-vertical:1.5rem;--bd-section-horizontal:1.5rem;--bd-section-h:171deg;background-image:linear-gradient(180deg,hsla(var(--bd-section-h),100%,67%,.1),transparent var(--bd-index-vertical));background-repeat:repeat-x}
+.bd-index-section {
+  --bd-section-vertical: 1.5rem;
+  --bd-section-horizontal: 1.5rem;
+  --bd-section-h: 171deg;
+  background-image: linear-gradient(180deg, hsla(var(--bd-section-h), 100%, 67%, 0.1), transparent var(--bd-index-vertical));
+  background-repeat: repeat-x;
+}
+
 .bd-index-section .bd-tw{margin-left:auto;margin-right:auto;max-width:28em}.bd-index-content{font-size:1rem}.bd-index-content strong{font-weight:600}.bd-index-content .title{color:#363636;font-size:2em;font-weight:400;position:relative}
 .bd-index-content .title .icon{height:1.125em;position:absolute;right:calc(100% + 1.5rem);top:0;width:1.125em}.bd-index-content .title a{font-weight:600}.bd-index-content .subtitle strong{color:inherit}
 .bd-index-content .icon-text strong{color:inherit}
